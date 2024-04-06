@@ -71,5 +71,5 @@ $${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}\frac{c_i}{s+\lambd
 ### 1.4 Solution of the Bateman Equations. 
 Using Eq. (14), the inverse Laplace transform of Eq. (11) is reduced to
 $$x_n(t)=\mathcal{L}^{-1}\\{{\widetilde{x}}_ n\\}=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}{\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}\mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}}\\}, \tag{15}$$
-that using that $mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}}\\} = \exp(-\lambda_i t)$
+that using that $\mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}}\\}$
 
