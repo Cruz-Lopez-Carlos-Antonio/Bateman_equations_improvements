@@ -21,4 +21,4 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 
 ## Mathematical description of the problem.
 Bateman equations describe the time evolution of a set of nuclides appearing in a linear chain. This last structure can be represented as:
-$$X_1\ \rightarrow\above\lambda_1\ \ X_2\ \rightarrow\above\lambda_2\ \ldots\rightarrow\above\lambda_(n-1)\ \ X_n\ \rightarrow\above\lambda_n\ \tag{1}$$
+$$X_1\buildrel\lambda_1\frac\rightarrow X_2\buildrel\lambda_2\frac\rightarrow\ldots\buildrel\lambda_{n-1}\frac\rightarrow X_n\buildrel\lambda_n\frac\rightarrow$$
