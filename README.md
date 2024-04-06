@@ -45,10 +45,10 @@ $${\widetilde{x}}_ 1=\frac{X_1\left(0\right)}{s+\lambda_1},\ \ {\widetilde{x}}_ 
 After multiple replacements, starting with $\widetilde{x}_1$ and continuing forward, it follows that: 
 
 $$\begin{matrix}
-x_2=&\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)}\\
-x_3=&\frac{\lambda_2\lambda_1X_1(0)}{(s+\lambda_3)(s+\lambda_2)(s+\lambda_1)}\\
+{\widetilde{x}}_ 2=&\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)}\\
+{\widetilde{x}}_ 3=&\frac{\lambda_2\lambda_1X_1(0)}{(s+\lambda_3)(s+\lambda_2)(s+\lambda_1)}\\
 \vdots&\vdots\\
-x_n=&\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}\\
+{\widetilde{x}}_ n=&\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}\\
 \end{matrix} 
 \tag{8}$$
 
@@ -59,7 +59,7 @@ $$\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1=\prod_{k=1}^{n-1}\lambda_k ,\tag{9}$
 $$\frac{1}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}=\prod_{j=1}^{n}\frac{1}{(s+\lambda_j),} \tag{10}$$
 
 the last expression in Eq. (8) can be written as:
-$$x_n=\prod_{k=1}^{n-1}\lambda_k\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)} \tag{11}$$
+$${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)} \tag{11}$$
 
 ### 1.3 Partial fractions expansions.
 The following step is expressing the Eq. (8) in the following form:
