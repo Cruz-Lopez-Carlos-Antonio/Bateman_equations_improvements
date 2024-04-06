@@ -59,8 +59,10 @@ $$\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1=\prod_{k=1}^{n-1}\lambda_k ,\tag{9}$
 $$\frac{1}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}=\prod_{j=1}^{n}\frac{1}{(s+\lambda_j),} \tag{10}$$
 
 the last expression in Eq. (8) can be written as:
-$${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)} \tag{11}$$
+$${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)}. \tag{11}$$
 
 ### 1.3 Partial fractions expansions.
 The Inverse Laplace transform of Eq. (11) can be found in a straighforward way if the Eq. (10) is expressed in terms of partial fractions:
 $$\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)}=\sum_{j=1}^{n}\frac{c_j}{s+\lambda_j} \tag{12}$$
+where the coefficients must to be computed. This last can be done **if we assume that all the decay constants, $\lambda_i$ are different**. In such case, it follows that:
+
