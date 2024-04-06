@@ -75,7 +75,7 @@ Using that $\mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}\\}=\exp(-\lambda_i t)$, it 
 $$x_n\left(t\right)=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}\prod_{j=1,j\neq i}^{n}\frac{\exp(-\lambda_it)}{(\lambda_j-\lambda_i)}, \tag{16}$$
 which is known as the Bateman solution.
 ## 2. Cetnar's solution.
-The Eq. (16) was developed assuming that the lambda constants, $\lambda_i, 1\leq i \leq n$ are different. Nevertheless, there cases where such condition is not assummed. A common practice to address this issue consists of introducing small increments $\inc_i$ in the repeated decay constants. In such case a linear chain with $n$ different isotopes, each of them appearing $\mu_i+1$ times, with $\mu_i\geq0$
+The Eq. (16) was developed assuming that the lambda constants, $\lambda_i, 1\leq i \leq n$ are different. Nevertheless, there cases where such condition is not assummed. A common practice to address this issue consists of introducing small increments $\Delta_i$ in the repeated decay constants. In such case a linear chain with $n$ different isotopes, each of them appearing $\mu_i+1$ times, with $\mu_i\geq0$
 
 
 
