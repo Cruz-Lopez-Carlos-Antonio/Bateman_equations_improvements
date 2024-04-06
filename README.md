@@ -28,7 +28,7 @@ where $X_1, X_2,...,X_n$ are the concentration of the nuclides and $\lambda_1, \
 $$\frac{dX_i(t)}{dt}=\lambda_{i-1}X_{i-1}\left(t\right)-\lambda_{i}X_{i}(t), \tag{2}$$
 
 with $\lambda_{i-1} X_{i-1}=0$ and $1\leq i\leq n$. 
-### 1.2 Solution by Laplace transform. 
+### 1.2 Laplace transform of the system
 One of the most elementary ways to solve the system given in Eq.(2) consists of using the Laplace transform. For such task it is necessary to consider the following relationship:
 $$\mathcal{L}\\{f^{(n)}(t),t\\}=s^n\mathcal{L} \\{f(t),t\\}-s^{n-1}f(0)-s^{n-2}f^\prime (0)-\ldots-f^{(n-1)}(0) \tag{3}.$$
 Applying the last relationship to both sides of Eq. (2), the following system is obtained:
@@ -48,5 +48,8 @@ x_2=&\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)}\\
 x_3=&\frac{\lambda_2\lambda_1X_1(0)}{(s+\lambda_3)(s+\lambda_2)(s+\lambda_1)}\\
 \vdots&\vdots\\
 x_n=&\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}\\
-\end{matrix}$$
+\end{matrix} \tag{8}$$
+### 1.3 Partial fractions expansions.
+The following step is expressing the Eq. (8) in the following form:
+$$x_n=\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}=\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1\ \sum_{i=1}^{n}\frac{c_i}{s+\lambda_i}$$
 
