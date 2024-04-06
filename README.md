@@ -1,5 +1,5 @@
 # Bateman equations
-The present repository contains a set of Python algorithms that improves the General Solution of the Bateman Equations, which were developed in the following article "General Solution of Bateman Equations using Cauchy Products and the Theory of Divided Differences", which was submitted to the "Annals of Nuclear Energy" journal.
+The present repository contains a set of Python algorithms that improves the General Solution of the Bateman Equations, which were developed in the following article **"General Solution of Bateman Equations using Cauchy Products and the Theory of Divided Differences", which was submitted to the "Annals of Nuclear Energy" journal.
 
 The programs are licensed under a Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0/
 
