@@ -41,7 +41,7 @@ Considering the case where:
 $$X_i (0)=0, \ i≥2 \tag{6},$$
 the system given in Eq. (5) is reduced to: 
 $${\widetilde{x}}_ 1=\frac{X_1\left(0\right)}{s+\lambda_1},\ \ {\widetilde{x}}_ i=\frac{\lambda_{i-1}{\widetilde{x}}_{i-1}}{s+\lambda_i}. \tag{7}$$
-After multiple replacements, it follows that: 
+After multiple replacements, starting with $\widetilde{x}_1$ and continuing forward, it follows that: 
 
 $$\begin{matrix}
 x_2=&\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)}\\
