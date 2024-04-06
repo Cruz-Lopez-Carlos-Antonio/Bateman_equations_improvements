@@ -33,8 +33,7 @@ One of the most elementary ways to solve the system given in Eq.(2) consists of 
 $$\mathcal{L}\\{f^{(n)}(t),t\\}=s^n\mathcal{L} \\{f(t),t\\}-s^{n-1}f(0)-s^{n-2}f^\prime (0)-\ldots-f^{(n-1)}(0) \tag{3}.$$
 Applying the last relationship to both sides of Eq. (2), the following system is obtained:
 
-$$s{\widetilde{x}}_i\left(s\right)-X_1\left(0\right)=\lambda_{i-1}{\widetilde{x}}_{i-1}\left(s\right)-\lambda_i{\widetilde{x}}_i(s)$$
-
+$$s{\widetilde{x}}_i(s)-X_1(0)=\lambda_{i-1}{\widetilde{x}}_{i-1}(s)-\lambda_i{\widetilde{x}}_i(s)$$
 
 
 
