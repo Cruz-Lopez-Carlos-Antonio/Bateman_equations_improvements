@@ -18,3 +18,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 - [x] decimal
 ## Index of the Repository
 1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#1-mathematical-description-of-the-problem).
+
+## Mathematical description of the problem.
+Bateman equations describe the time evolution of a set of nuclides appearing in a linear chain. This last structure can be represented as:
+$$X_1\rightarrow X_2\rightarrow\ldots\rightarrow X_n \tag{1}$$
