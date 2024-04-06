@@ -51,8 +51,11 @@ x_3=&\frac{\lambda_2\lambda_1X_1(0)}{(s+\lambda_3)(s+\lambda_2)(s+\lambda_1)}\\
 x_n=&\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}\\
 \end{matrix} 
 \tag{8}$$
+
 This last relationship can be written in a reduced way using the product notation:
+
 $$\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1=\prod_{k=1}^{n-1}\lambda_k \tag{9}$$
+
 ### 1.3 Partial fractions expansions.
 The following step is expressing the Eq. (8) in the following form:
 $$x_n=\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}=\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1\ \sum_{i=1}^{n}\frac{c_i}{s+\lambda_i}$$
