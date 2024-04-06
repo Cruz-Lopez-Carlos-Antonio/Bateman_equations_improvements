@@ -52,7 +52,7 @@ $$\begin{matrix}
 \end{matrix} 
 \tag{8}$$
 
-Using the product notation:
+The last expression, ${\widetilde{x}}_n$, is the most general expression because it provides a general formula for each nuclide. Using the product notation:
 
 $$\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1=\prod_{k=1}^{n-1}\lambda_k ,\tag{9}$$
 
