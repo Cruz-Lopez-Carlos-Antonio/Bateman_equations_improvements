@@ -69,5 +69,7 @@ $$c_i=\lim_{s\rightarrow-\lambda_i}{\prod_{j=1}^{n}\frac{(s+\lambda_i)}{(s+\lamb
 Combining the last relationships and replace them in Eq. (11), it follows that:
 $${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}\frac{c_i}{s+\lambda_i}=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}{\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}\frac{1}{s+\lambda_i}} \tag{14}$$
 ### 1.4 Solution of the Bateman Equations. 
-Using Eq. (14), it follows that:
-$$x_n(t)=\mathcal{L}^{-1}\\{{\widetilde{x}}_ n\\}=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}{\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}\mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}}\\}$$
+Using Eq. (14), the inverse Laplace transform of Eq. (11) is reduced to
+$$x_n(t)=\mathcal{L}^{-1}\\{{\widetilde{x}}_ n\\}=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}{\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}\mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}}\\}, \tag{15}$$
+that using that $mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}}\\} = \exp(-\lambda_i t)}$
+
