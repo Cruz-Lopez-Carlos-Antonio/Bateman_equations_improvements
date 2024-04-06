@@ -67,4 +67,4 @@ $$\prod_{i=1}^{n}\frac{1}{(s+\lambda_i)}=\sum_{i=1}^{n}\frac{c_i}{s+\lambda_i} \
 where the coefficients, $c_i$ must to be computed. This last can be done **if we assume that all the decay constants, $\lambda_i$ are different**. In such case, it follows that:
 $$c_i=\lim_{s\rightarrow-\lambda_i}{\prod_{j=1}^{n}\frac{(s+\lambda_i)}{(s+\lambda_j)}}=\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}. \tag{13}$$
 Combining the last relationships and replace them in Eq. (11), it follows that:
-$${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}\frac{c_i}{s+\lambda_i}=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}{\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}\frac{1}{s+\lambda_i}} \tag{13}$$
+$${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}\frac{c_i}{s+\lambda_i}=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}{\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}\frac{1}{s+\lambda_i}} \tag{14}$$
