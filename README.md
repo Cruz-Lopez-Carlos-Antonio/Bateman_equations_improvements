@@ -62,6 +62,6 @@ the last expression in Eq. (8) can be written as:
 $${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)} \tag{11}$$
 
 ### 1.3 Partial fractions expansions.
-The following step is expressing the Eq. (8) in the following form:
+The Inverse Laplace transform of Eq. (11) can be found in a straighforward way if the Eq. (10) is expressed in terms of partial fractions:
 $$x_n=\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}=\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1\ \sum_{i=1}^{n}\frac{c_i}{s+\lambda_i}$$
 
