@@ -40,9 +40,12 @@ $${\widetilde{x}}_ i=\frac{\lambda_{i-1}{\widetilde{x}}_ {i-1}}{s+\lambda_i}+\fr
 Considering the case where:
 $$X_i (0)=0, \ i≥2 \tag{6},$$
 the system given in Eq. (5) is reduced to:
-$${\widetilde{x}}_ 1=\frac{X_1\left(0\right)}{s+\lambda_1},\ \ {\widetilde{x}}_ j=\frac{\lambda_{j-1}{\widetilde{x}}_{j-1}}{s+\lambda_j}. \tag{7}$$
+$${\widetilde{x}}_ 1=\frac{X_1\left(0\right)}{s+\lambda_1},\ \ {\widetilde{x}}_ j=\frac{\lambda_{j-1}{\widetilde{x}}_ {j-1}}{s+\lambda_j}. \tag{7}$$
 with $j\geq2$. After multiple replacements, it follows that:
-$$x_2=\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)} \tag{8}$$
+$$x_2=\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)} $$
+$$x_3=\frac{\lambda_2\lambda_1X_1(0)}{(s+\lambda_3)(s+\lambda_2)(s+\lambda_1)}$$
+$$\vdots$$
+$$x_ n=\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)} \tag{8}$$
 
 
 
