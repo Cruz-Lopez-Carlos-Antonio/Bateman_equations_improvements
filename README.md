@@ -35,8 +35,11 @@ Applying the last relationship to both sides of Eq. (2), the following system is
 
 $$s{\widetilde{x}}_ i-X_i(0)=\lambda_{i-1}{\widetilde{x}}_{i-1}-\lambda_i{\widetilde{x}}_i \tag{4}$$
 
-where ${\widetilde{x}}_ i$ and ${\widetilde{x}}_{i-1}$ are the Laplace transforms of $X_i(t)$ and $X _ {i-1}$, respectively. $X _i(0)$ are the initial conditions. Considering the case where:
+where ${\widetilde{x}}_ i$ and ${\widetilde{x}}_{i-1}$ are the Laplace transforms of $X_i(t)$ and $X _ {i-1}$, respectively, and $X _i(0)$ are the initial conditions. 
+Considering the case where:
 $$X_i (0)=0, \ i≥2 \tag{5}$$
+the system given in (4) is reduced to:
+$$ \widetilde{x} _i=\frac{\lambda_ {i-1}{\widetilde{x}}_ {i-1}}{s+\lambda_i}+\frac{X_i\left(0\right)}{s+\lambda_i}$$
 
 
 
