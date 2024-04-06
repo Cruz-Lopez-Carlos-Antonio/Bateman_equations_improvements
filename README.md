@@ -64,5 +64,5 @@ $${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\prod_{i=1}^{n}\frac{1}{(s+\lambd
 ### 1.3 Partial fractions expansions.
 The Inverse Laplace transform of Eq. (11) can be found in a straighforward way if the Eq. (10) is expressed in terms of partial fractions:
 $$\prod_{i=1}^{n}\frac{1}{(s+\lambda_i)}=\sum_{i=1}^{n}\frac{c_i}{s+\lambda_i} \tag{12}$$
-where the coefficients must to be computed. This last can be done **if we assume that all the decay constants, $\lambda_i$ are different**. In such case, it follows that:
+where the coefficients, $c_i$ must to be computed. This last can be done **if we assume that all the decay constants, $\lambda_i$ are different**. In such case, it follows that:
 $$c_i=\lim_{s\rightarrow-\lambda_i}{\prod_{j=1}^{n}\frac{(s+\lambda_i)}{(s+\lambda_j)}}=\prod_{j=1,j\neq i}^{n}\frac{1}{(\lambda_j-\lambda_i)}$$
