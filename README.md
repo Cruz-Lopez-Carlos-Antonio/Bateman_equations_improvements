@@ -63,4 +63,4 @@ $${\widetilde{x}}_ n=\prod_{k=1}^{n-1}\lambda_k\prod_{j=1}^{n}\frac{1}{(s+\lambd
 
 ### 1.3 Partial fractions expansions.
 The Inverse Laplace transform of Eq. (11) can be found in a straighforward way if the Eq. (10) is expressed in terms of partial fractions:
-$$\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)}=\sum_{i=1}^{n}\frac{c_i}{s+\lambda_i} \tag{12}$$
+$$\prod_{j=1}^{n}\frac{1}{(s+\lambda_j)}=\sum_{j=1}^{n}\frac{c_j}{s+\lambda_j} \tag{12}$$
