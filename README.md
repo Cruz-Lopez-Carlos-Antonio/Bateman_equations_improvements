@@ -40,7 +40,5 @@ $${\widetilde{x}}_ i=\frac{\lambda_{i-1}{\widetilde{x}}_ {i-1}}{s+\lambda_i}+\fr
 Considering the case where:
 $$X_i (0)=0, \ i≥2 \tag{6},$$
 the system given in Eq. (5) is reduced to:
-$${\widetilde{x}}_ 1=\frac{X_1\left(0\right)}{s+\lambda_1},\ \ {\widetilde{x}}_ j=\frac{\lambda_{j-1}{\widetilde{x}}_ {j-1}}{s+\lambda_j}. \tag{7}$$
-with $j\geq2$. After multiple replacements, it follows that:
-$$■(x_2=&(λ_1 X_1 (0))/((s+λ_2)(s+λ_1))@x_3=&(λ_2 λ_1 X_1 (0))/((s+λ_3)(s+λ_2)(s+λ_1))@⋮&⋮@x_n=&(λ_(n-1) λ_(n-2)⋯λ_1 X_1 (0))/((s+λ_n )(s+λ_(n-1) )⋯(s+λ_1)))$$
+$$\begin{matrix}x_2=&\frac{\lambda_1X_1(0)}{(s+\lambda_2)(s+\lambda_1)}\\x_3=&\frac{\lambda_2\lambda_1X_1(0)}{(s+\lambda_3)(s+\lambda_2)(s+\lambda_1)}\\\vdots&\vdots\\x_n=&\frac{\lambda_{n-1}\lambda_{n-2}\cdots\lambda_1X_1(0)}{\left(s+\lambda_n\right)\left(s+\lambda_{n-1}\right)\cdots(s+\lambda_1)}\\\end{matrix}$$
 
