@@ -78,9 +78,9 @@ which is known as the Bateman solution.
 The Eq. (16) was developed assuming that the lambda constants, $\lambda_i, 1\leq i \leq n$, are different. Nevertheless, there cases where such condition is not fulfilled. A common practice to address this issue consists of introducing small increments $\Delta_i$ in the repeated decay constants. For example, if we considered that the decay $\lambda_i$ appears $m$ times, then such decay constants are modified as:
 $$\lambda_i,\ \lambda_i+\Delta_i,\lambda_i+2\Delta_i,…,\lambda_i+(m-1)\Delta_i. \tag{17}$$
 Jerzy Centar extended this idea and proposed the following approximation of the Bateman solution including the increments:
-$$X_n(t)\approx X_n(t,\Delta_i,Delta_j)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\sum_{m=0}^{\mu_i}\exp{\left(-\left(\lambda_i+m\Delta_i\right)t\right)}$$
-$$\times\left(\prod_{l=0,l\neq m}^{\mu_i}\frac{\lambda_i+l\Delta_i}{\left(l-m\right)\Delta_i}\right)\prod_{j=1,j\neq i}^{n}\prod_{k=0}^{\mu_i}\frac{\lambda_j+k\Delta_j}{\lambda_j+k\Delta_j-\lambda_i-m\Delta_i}. \tag{18}$$
-Then, in a very ingenious procedure, Cetnar found the exact analytical solution considering the following limit:
+$$X_n(t)\approx X_n(t,\Delta_i,\Delta_j)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\sum_{m=0}^{\mu_i}\exp{\left(-\left(\lambda_i+m\Delta_i\right)t\right)}$$
+$$\times\left(\prod_{l=0,l\neq m}^{\mu_i}\frac{\lambda_i+l\Delta_i}{\left(l-m\right)\Delta_i}\right)\prod_{j=1,j\neq i}^{n}\prod_{k=0}^{\mu_i}\frac{\lambda_j+k\Delta_j}{\lambda_j+k\Delta_j-\lambda_i-m\Delta_i}, \tag{18}$$
+where the function $X_n(t,\Delta_i,\Delta_j)$ represents an approximation whose accuracy depends on the way in which the increments $\Delta_i,\Delta_j$ are chosen, and $\mu_i$ is the number of times that the isotope of the type $i$ is repeated in the linear chain. Then, in a very ingenious procedure, Cetnar found the exact analytical solution considering the following limit:
 
 In such case a linear chain with $n$ different isotopes, each of them appearing $\mu_i+1$ times, with $\mu_i\geq0$
 
