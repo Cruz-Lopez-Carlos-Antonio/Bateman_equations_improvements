@@ -79,7 +79,7 @@ The Eq. (16) was developed assuming that the lambda constants, $\lambda_i, 1\leq
 $$\lambda_i,\ \lambda_i+\Delta_i,\lambda_i+2\Delta_i,…,\lambda_i+(m-1)\Delta_i. \tag{17}$$
 Jerzy Centar extended this idea and proposed the following formulation of the Bateman solution including the increments:
 $$X_n(t)\approx\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\sum_{m=0}^{\mu_i}\exp{\left(-\left(\lambda_i+m\Delta_i\right)t\right)}$$
-$$\times\left(\prod_{l=0,l\neq m}^{\mu_i}\frac{\lambda_i+ly_i}{\left(l-m\right)y_i}\right)\prod_{j=1,j\neq i}^{n}\prod_{k=0}^{\mu_i}\frac{\lambda_j+ky_j}{\lambda_j+ky_j-\lambda_i-my_i}$$
+$$\times\left(\prod_{l=0,l\neq m}^{\mu_i}\frac{\lambda_i+l\Delta_i}{\left(l-m\right)\Delta_i}\right)\prod_{j=1,j\neq i}^{n}\prod_{k=0}^{\mu_i}\frac{\lambda_j+k\Delta_j}{\lambda_j+ky_j-\lambda_i-my_i}$$
 In such case a linear chain with $n$ different isotopes, each of them appearing $\mu_i+1$ times, with $\mu_i\geq0$
 
 
