@@ -78,7 +78,7 @@ which is known as the Bateman solution.
 The Eq. (16) was developed assuming that the lambda constants, $\lambda_i, 1\leq i \leq n$, are different. Nevertheless, there cases where such condition is not fulfilled. A common practice to address this issue consists of introducing small increments $\Delta_i$ in the repeated decay constants. For example, if we considered that the decay $\lambda_i$ appears $m$ times, then such decay constants are modified as:
 $$\lambda_i,\ \lambda_i+\Delta_i,\lambda_i+2\Delta_i,…,\lambda_i+(m-1)\Delta_i. \tag{17}$$
 Jerzy Centar extended this idea and proposed the following formulation of the Bateman solution including the increments:
-$$X_n(t)\approx\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\sum_{m=0}^{\mu_i}\exp{\left(-\left(\lambda_i+my_i\right)t\right)}$$
+$$X_n(t)\approx\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\sum_{m=0}^{\mu_i}\exp{\left(-\left(\lambda_i+m\Delta_i\right)t\right)}$$
 In such case a linear chain with $n$ different isotopes, each of them appearing $\mu_i+1$ times, with $\mu_i\geq0$
 
 
