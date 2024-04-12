@@ -100,9 +100,10 @@ $$\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}$$
 $$\prod_{k=1,k\neq i}^{n} $$
 
 $$\begin{matrix}
-h_k+\mu_k\\
-\mu_k\\
+h_k+\mu_k \\
+\mu_k 
 \end{matrix}$$
+
 (\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p}
 
 
