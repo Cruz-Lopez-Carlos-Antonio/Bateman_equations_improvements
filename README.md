@@ -94,7 +94,7 @@ $$\psi_{i,j}$$
 
 $$=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} $$
 
-$$\left(\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}\right)$$
+$$(\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix})$$
 
 
 $$\prod_{k=1,k\neq i}^{n} $$
