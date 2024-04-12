@@ -87,7 +87,9 @@ $$\lim_{\Delta_i,\Delta_j\rightarrow0}{\chi_n(t,\Delta_i,\Delta_j})=X_n. \tag{19
 After a very difficult procedure, the following equation is obtained:
 $$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}{\lambda_i\alpha_i\exp(-\lambda_it)}\cdot\sum_{m=0}^{\mu_i}{\frac{\left(\lambda_it\right)^m}{m!}\cdot\psi_{i,\mu_i-m}}, \tag{20}$$
 where:
-$$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\right)^{m_j} \tag{21}$$
+$$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\right)^{m_j}, \tag{21}$$
+and:
+$$\psi_{i,j}=\sum_{h_1=0}^{j}{\sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j}\cdots\sum_{h_n=0}^{j}{\prod_{k=1,k\neq i}^{n}\left(\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}\right)\left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p}}}$$
 
 
 
