@@ -81,7 +81,7 @@ Jerzy Centar extended this idea and proposed the following approximation of the 
 $$X_n(t)\approx \chi_n(t,\Delta_i,\Delta_j)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\sum_{m=0}^{\mu_i}\exp{\left(-\left(\lambda_i+m\Delta_i\right)t\right)}$$
 $$\times\left(\prod_{l=0,l\neq m}^{\mu_i}\frac{\lambda_i+l\Delta_i}{\left(l-m\right)\Delta_i}\right)\prod_{j=1,j\neq i}^{n}\prod_{k=0}^{\mu_i}\frac{\lambda_j+k\Delta_j}{\lambda_j+k\Delta_j-\lambda_i-m\Delta_i}, \tag{18}$$
 where the function $\chi_n(t,\Delta_i,\Delta_j)$ represents an approximation whose accuracy depends on the way in which the increments $\Delta_i,\Delta_j$ are chosen, being $n$ the number of different nuclides (or different decay constants) and where $\mu_i$ is the number of times that the isotope of the type $i$ is repeated in the linear chain. Then, in a very ingenious procedure, Cetnar found the exact analytical solution considering the following limit:
-$$\lim_{\Delta_i,\Delta_j\rightarrow0}{\chi_n(t,y_i,y_i})=X_n \tag{19}$$
+$$\lim_{\Delta_i,\Delta_j\rightarrow0}{\chi_n(t,\Delta_i,\Delta_j})=X_n \tag{19}$$
 
 In such case a linear chain with $n$ different isotopes, each of them appearing $\mu_i+1$ times, with $\mu_i\geq0$
 
