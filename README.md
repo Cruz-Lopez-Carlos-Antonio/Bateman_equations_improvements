@@ -100,8 +100,7 @@ $$\begin{matrix}
 h_k+\mu_k\\\mu_k\\\end{matrix}$$
 (\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p}
 
-$$\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}$$
-
+$$\left(\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}\right)$$
 
 
 
