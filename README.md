@@ -17,7 +17,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 - [x] numpy
 - [x] decimal
 ## Index of the Repository
-1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE#1-mathematical-description-of-the-problem).
+1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#1-mathematical-description-of-the-problem)).
 
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
