@@ -129,6 +129,8 @@ $$\begin{Bmatrix}
 
 where each triad represents a solution of the Diophantine Equation given in Eq. (25). Then, instead of using nested sums and the Kronecker's Delta, it is possible to rewrite such term as:
 $$\sum_{h_1=0}^{4}\sum_{h_2=0}^{4}{\sum_{h_3=0}^{4}{f(h_1,h_2,h_3)}\delta_{h_1+h_2+h_3,4}}$$
+$$=\sum_{h_1+h_2+h_3}{f(h_1,h_2,h_3)}=\sum_{\left(0,0,4\right),\ \ \left(1,0,3\right),\ldots,(4,0,0)}{f(h_1,h_2,h_3)}$$
+$$=f\left(0,0,4\right)+f\left(1,0,3\right)+f\left(0,2,2\right)+\ldots+f(4,\ 0,\ 0) \tag{27}$$
 
 
 
