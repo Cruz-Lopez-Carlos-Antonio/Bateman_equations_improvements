@@ -97,11 +97,10 @@ $$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_
 $$\begin{cases}0, & \text{if  odd}\\ 2, & \text{otherwise} \end{cases}$$
 where:
 
-$$X(m,n) ={\begin{array}{lr}
-        x(n), & \text{for } 0\leq n\leq 1\\
-        x(n-1), & \text{for } 0\leq n\leq 1\\
-        x(n-1), & \text{for } 0\leq n\leq 1
-        \end{array}\right\} = xy$$
+$$f(n) = \begin{cases}
+  n/2  & n \text{ is even} \\
+  3n+1 & n \text{ is odd}
+\end{cases}$$
 
 
 
