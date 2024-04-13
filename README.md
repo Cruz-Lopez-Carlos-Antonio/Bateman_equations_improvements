@@ -95,7 +95,7 @@ $$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_
 
 where:
 
-$$X(m,n) = \left\{\begin{array}{lr}
+$$X(m,n) ={\begin{array}{lr}
         x(n), & \text{for } 0\leq n\leq 1\\
         x(n-1), & \text{for } 0\leq n\leq 1\\
         x(n-1), & \text{for } 0\leq n\leq 1
