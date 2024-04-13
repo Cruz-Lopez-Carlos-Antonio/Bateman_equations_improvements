@@ -90,22 +90,7 @@ where:
 $$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\right)^{m_j}, \tag{21}$$
 and:
 
-$$\psi_{i,j}$$
-
-$$\binom{N}{k}$$
-
-$$=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}{\mu_k} \left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p} $$
-$$\begin{Bmatrix}
-\\ h_k+\mu_k \\
-\mu_k  
-\end{matrix}$$
-
-$$\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}$$
-
-
-$$ $$
-
-
+$$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}{\mu_k} \left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p} $$
 
 (\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p}
 
