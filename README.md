@@ -116,6 +116,7 @@ One of the main contribution of our work consists of having identified the Eq. (
 The sum given in Eq. (24) is carried out over the following set:
 $$h_1+h_2+\ldots+h_n=j, \tag{25}$$
 where the indexes $h_i$, $1\leq i\leq n$ are non-negative integers. Therefore the Eq. (25) represents all the different permutations of non-negative integers whose sum is equal to $n$. The relationship given in Eq. (25) is a Diophantine Equation, and its solution is a set of vectors over which the sum in Eq. (24) is valuated. For example, considering the case:
+$$h_1+h_2+h_3=4 \tag{25}$$
 
 
 
