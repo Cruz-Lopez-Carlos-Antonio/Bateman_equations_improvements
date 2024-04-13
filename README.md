@@ -96,6 +96,10 @@ $$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_
 where:
 $$p=\sum_{l=1,l\neq i}^{n}h_l,\delta_{i,p}={\begin{matrix}1,&\mathrm{if}\ j=p\\0,&\mathrm{if\ }j\neq p\mathrm{\ }\\\end{matrix} $$
 
+$$\begin{cases}\text{closed,} &\quad\text{if RMSD}_\text{closed}\le2 \\$$
+
+$$p=\sum_{l=1,l\neq i}^{n}h_l,\delta_{i,p}={\begin{matrix}1,&\mathrm{if}\ j=p\\0,&\mathrm{if\ }j\neq p\mathrm{\ }\\\end{matrix} $$
+
 
 
 
