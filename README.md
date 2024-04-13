@@ -119,13 +119,15 @@ where the indexes $h_i$, $1\leq i\leq n$ are non-negative integers. Therefore th
 $$h_1+h_2+h_3=4 \tag{25},$$
 which is the set of all the permutations of non-integer numbers $h_1,h_2$ and $h_3$, whose sum is equal to 4. This set is the same that:
 
-$$\begin{bmatrix}
+$$\begin{Bmatrix}
 (0, 0, 4),& (1, 0, 3),&(2,1,1) \\
 (0, 1, 3),&(1, 1, 2),&(2, 2, 0) \\ 
 (0, 2, 2),&(1, 2, 1),&(3, 0, 1) \\ 
 (0, 3, 1),& (1, 3, 0),&(3, 1, 0)\\
 (0, 4, 0),&(2, 0, 2),&(4, 0, 0)
-\end{bmatrix} $$
+\end{Bmatrix} \tag{26}$$
+
+where each triad represents 
 
 
 
