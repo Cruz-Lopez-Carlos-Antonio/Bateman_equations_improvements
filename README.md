@@ -118,7 +118,9 @@ $$h_1+h_2+\ldots+h_n=j, \tag{25}$$
 where the indexes $h_i$, $1\leq i\leq n$ are non-negative integers. Therefore the Eq. (25) represents all the different permutations of non-negative integers whose sum is equal to $n$. The relationship given in Eq. (25) is a Diophantine Equation, and its solution is a set of vectors over which the sum in Eq. (24) is valuated. For example, considering the case:
 $$h_1+h_2+h_3=4 \tag{25},$$
 which is the set of all the permutations of non-integer numbers $h_1,h_2$ and $h_3$, whose sum is equal to 4. This set is the same that:
-$$\begin{matrix}\left(0,\ 0,\ 4\right),&\left(1,\ 0,\ 3\right),&(2,\ 1,\ 1)\\\left(0,\ 1,\ 3\right),&\left(1,\ 1,\ 2\right),&(2,\ 2,\ 0)\\\left(0,\ 2,\ 2\right),&\left(1,\ 2,\ 1\right),&(3,\ 0,\ 1)\\\left(0,\ 3,\ 1\right),&\left(1,\ 3,\ 0\right),&(3,\ 1,\ 0)\\\left(0,\ 4,\ 0\right),&\left(2,\ 0,\ 2\right),&(4,\ 0,\ 0)\\\end{matrix}\ $$
+
+$$\begin{matrix}(0, 0, 4),&(1, 0, 3),&(2,1,1)\\ (0, 1, 3),&(1, 1, 2),&(2, 2, 0)\\ (0, 2, 2),&(1, 2, 1),&(3,0,1)\\ (0, 3, 1),& (1, 3, 0),&(3, 1, 0)\\(0, 4, 0),&(2, 0, 2),&(4, 0, 0)\\
+\end{matrix} $$
 
 
 
