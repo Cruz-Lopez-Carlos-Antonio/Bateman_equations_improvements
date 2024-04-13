@@ -130,8 +130,10 @@ $$\begin{Bmatrix}
 where each triad represents a solution of the Diophantine Equation given in Eq. (25). Then, instead of using nested sums and the Kronecker's Delta, it is possible to rewrite such term as:
 $$\sum_{h_1=0}^{4}\sum_{h_2=0}^{4}{\sum_{h_3=0}^{4}{f(h_1,h_2,h_3)}\delta_{h_1+h_2+h_3,4}}$$
 $$=\sum_{h_1+h_2+h_3}{f(h_1,h_2,h_3)}=\sum_{\left(0,0,4\right),\ \ \left(1,0,3\right),\ldots,(4,0,0)}{f(h_1,h_2,h_3)}$$
-$$=f\left(0,0,4\right)+f\left(1,0,3\right)+f\left(0,2,2\right)+\ldots+f(4,\ 0,\ 0) \tag{27}$$
+$$=f\left(0,0,4\right)+f\left(1,0,3\right)+f\left(0,2,2\right)+\ldots+f(4,\ 0,\ 0) \tag{27}.$$
 
+As it can be observed in the last expression, the nested sums have been removed as well as the Kronecker's Delta. Even more, it is possible to observe that such sum only depends on the set of Diophantine Equations, which in turns only depends on the sub-index of the function $\psi_{i,j}$:
+$$\psi_{i,j}=\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}\prod_{k=1,\ k\neq i}^{n}\left(\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}\right)\left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}$$
 
 
 
