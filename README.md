@@ -91,9 +91,9 @@ $$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\ri
 and:
 
 $$\psi_{i,j}$$
+$${N\choose k}$$
 
 $$=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} $$
-$${N\choose k}$$
 $$\begin{Bmatrix}
 \\ h_k+\mu_k \\
 \mu_k  
