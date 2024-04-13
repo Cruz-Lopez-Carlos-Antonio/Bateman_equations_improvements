@@ -108,7 +108,9 @@ $$\sum_{h_1=0}^{j}\sum_{h_2=0}^{j}\cdots\sum_{h_n=0}^{j}{f(h_1,h_2,\ldots,h_n)}\
 $$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}, \tag{24}$$
 
 which in turn arises due to the presence of **Cauchy products** as it can be verified in the submitted paper (Cruz-López and Espinosa-Paredes, 2024). 
-One of the main contribution of our work consists of having identified the Eq. (24), which allows simplifying the nested multiple sum to a single one. Additionally, the Delta's kronecker is
+One of the main contribution of our work consists of having identified the Eq. (24), which allows simplifying the nested multiple sum to a single one. Additionally, the Delta's kronecker is removed, which implies an important simplification. Nevertheless, it is necessary to analyze the set over which the sum of the right side of Eq. (24) is carried out, i.e.:
+
+$$h_1+h_2+\ldots+h_n=j \tag{25}$$
 
 
 
