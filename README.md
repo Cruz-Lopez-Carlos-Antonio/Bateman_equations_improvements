@@ -78,6 +78,7 @@ Using that $\mathcal{L}^{-1}\\{\frac{1}{s+\lambda_i}\\}=\exp(-\lambda_i t)$, it 
 $$x_n\left(t\right)=\prod_{k=1}^{n-1}\lambda_k\sum_{i=1}^{n}\prod_{j=1,j\neq i}^{n}\frac{\exp(-\lambda_it)}{(\lambda_j-\lambda_i)}, \tag{16}$$
 which is known as the Bateman solution.
 ## 2. Cetnar's solution.
+### 2.1 Solution based on increments. 
 The Eq. (16) was developed assuming that the lambda constants, $\lambda_i, 1\leq i \leq n$, are different. Nevertheless, there cases where such condition is not fulfilled. A common practice to address this issue consists of introducing small increments $\Delta_i$ in the repeated decay constants. For example, if we considered that the decay $\lambda_i$ appears $m$ times, then such decay constants are modified as:
 $$\lambda_i,\ \lambda_i+\Delta_i,\lambda_i+2\Delta_i,…,\lambda_i+(m-1)\Delta_i. \tag{17}$$
 Jerzy Centar (2006) extended this idea and proposed the following approximation of the Bateman solution including the increments:
