@@ -95,9 +95,9 @@ $$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_
 
 where:
 
-$$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=f\begin{cases}
-  1  &  \text{ is $j=p$ even} \\
-  3n+1 & n \text{ is odd}
+$$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=\begin{cases}
+  1  &  \text{ if $j=p$ } \\
+  0 & n \text{ if $j\neq p$}
 \end{cases}$$
 
 
