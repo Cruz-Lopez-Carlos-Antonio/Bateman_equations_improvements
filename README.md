@@ -100,7 +100,15 @@ $$\begin{cases}\text{closed,} &\quad\text{if RMSD}_\text{closed}\le2 \\$$
 
 $$p=\sum_{l=1,l\neq i}^{n}h_l,\delta_{i,p}={\begin{matrix}1,&\mathrm{if}\ j=p\\0,&\mathrm{if\ }j\neq p\mathrm{\ }\\\end{matrix} $$
 
-
+$$\[   
+f(a,b) = 
+     \begin{cases}
+       \text{open,} &\quad\text{if RMSD}_\text{s-open}\ge6, \text{RMSD}_\text{closed}\ge6\\
+       \text{closed,} &\quad\text{if RMSD}_\text{closed}\le2 \\
+       \text{semiopen,} &\quad\text{if RMSD}_\text{s-open}\le2\\
+       \text{transition,} &\quad\text{otherwise.} \\ 
+     \end{cases}
+\]$$
 
 
 
