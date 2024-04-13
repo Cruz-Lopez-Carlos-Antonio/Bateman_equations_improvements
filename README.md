@@ -98,7 +98,7 @@ where:
 $$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=\begin{cases}
   1  &  \text{ if $j=p$ } \\
   0  &  \text{ if $j\neq p$}
-\end{cases}$$
+\end{cases} \tag{23}$$
 
 
 
