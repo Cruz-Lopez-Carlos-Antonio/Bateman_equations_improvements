@@ -112,7 +112,7 @@ $$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}, \tag{24}$$
 which in turn arises due to the presence of **Cauchy products** as it can be verified in the submitted paper (Cruz-López and Espinosa-Paredes, 2024). 
 One of the main contribution of our work consists of having identified the Eq. (24), which allows simplifying the nested multiple sum to a single one. Additionally, the Delta's kronecker is removed, which implies an important simplification. Nevertheless, it is necessary to analyze the set over which the sum of the right side of Eq. (24) is carried out, which is done in detail in the following section. 
 
-## 2.3 Diophantie Equations
+### 2.3 Diophantie Equations
 The sum given in Eq. (24) is carried out over the following set:
 $$h_1+h_2+\ldots+h_n=j, \tag{25}$$
 where the indexes $h_i$, $1\leq i\leq n$ are non-negative integers. Therefore the Eq. (25) represents all the different permutations of non-negative integers whose sum is equal to $n$. The relationship given in Eq. (25) is a Diophantine Equation, and its solution is a set of vectors over which the sum in Eq. (24) is valuated. For example, considering the case:
@@ -133,7 +133,7 @@ $$=\sum_{h_1+h_2+h_3}{f(h_1,h_2,h_3)}=\sum_{\left(0,0,4\right),\ \ \left(1,0,3\r
 $$=f\left(0,0,4\right)+f\left(1,0,3\right)+f\left(0,2,2\right)+\ldots+f(4,\ 0,\ 0) \tag{27}.$$
 
 As it can be observed in the last expression, the nested sums have been removed as well as the Kronecker's Delta. Even more, it is possible to observe that such sum only depends on the set of Diophantine Equations, which in turns only depends on the sub-index of the function $\psi_{i,j}$:
-$$\psi_{i,j}=\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}\prod_{k=1,\ k\neq i}^{n}\left(\begin{matrix}h_k+\mu_k\\\mu_k\\\end{matrix}\right)\left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}$$
+$$\psi_{i,j}=\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}\prod_{k=1,\ k\neq i}^{n}$$
 
 
 
