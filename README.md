@@ -112,8 +112,8 @@ One of the main contribution of our work consists of having identified the Eq. (
 
 ## 2.3 Diophantie Equations
 The sum given in Eq. (24) is carried out over the following set:
-$$h_1+h_2+\ldots+h_n=j \tag{25}$$
-
+$$h_1+h_2+\ldots+h_n=j, \tag{25}$$
+where the indexes $\h_i$, $1\leq i\leq n$
 
 
 
