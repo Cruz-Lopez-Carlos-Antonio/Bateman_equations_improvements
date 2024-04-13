@@ -94,16 +94,12 @@ and:
 $$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}{\mu_k} \left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p} \tag{22} $$
 
 where:
+
 $$X(m,n) = \left\{\begin{array}{lr}
         x(n), & \text{for } 0\leq n\leq 1\\
         x(n-1), & \text{for } 0\leq n\leq 1\\
         x(n-1), & \text{for } 0\leq n\leq 1
         \end{array}\right\} = xy$$
-$$p=\sum_{l=1,l\neq i}^{n}h_l,\delta_{i,p}={\begin{matrix}1,&\mathrm{if}\ j=p\\0,&\mathrm{if\ }j\neq p\mathrm{\ }\\\end{matrix} $$
-
-$$\begin{cases}\text{closed,} &\quad\text{if RMSD}_\text{closed}\le2 \\$$
-
-$$p=\sum_{l=1,l\neq i}^{n}h_l,\delta_{i,p}={\begin{matrix}1,&\mathrm{if}\ j=p\\0,&\mathrm{if\ }j\neq p\mathrm{\ }\\\end{matrix} $$
 
 
 
