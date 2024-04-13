@@ -19,6 +19,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 ## Index of the Repository
 1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#1-mathematical-description-of-the-problem)).
    - [1.1 Differential mass-balance equations](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE?tab=readme-ov-file#51-sums)
+   - [1.2 Laplace transform of the system](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#12-laplace-transform-of-the-system)
 
 
 ## 1. Mathematical description of the problem.
@@ -90,10 +91,9 @@ where:
 $$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\right)^{m_j}, \tag{21}$$
 and:
 
-$$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}{\mu_k} \left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p} $$
+$$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}{\mu_k} \left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p} \tag{22} $$
 
-(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p}
-
+where:
 
 
 
