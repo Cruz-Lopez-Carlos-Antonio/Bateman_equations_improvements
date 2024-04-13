@@ -101,6 +101,8 @@ $$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=\begin{cases}
   1  &  \text{ if $j=p$ } \\
   0  &  \text{ if $j\neq p$}
 \end{cases} \tag{23}$$
+### 2.2 The issues of the nested sums.
+Even when the solution (as well as the procedure that was followed to obtain it) is very ingenious, the way in which it is expressed is very disadvantageous. The main issue is related to the nested sum in the term $\psi_{i,j}$ in Eq. (22), which in turns involves the Kronecker's delta. 
 
 
 
