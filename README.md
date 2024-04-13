@@ -19,9 +19,9 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 ## Index of the Repository
 1. [Mathematical description of the problem](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#1-mathematical-description-of-the-problem)).
    - [1.1 Differential mass-balance equations](https://github.com/Cruz-Lopez-Carlos-Antonio/AnalyticNPKE?tab=readme-ov-file#51-sums)
-   - [1.2 Laplace transform of the system](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#12-laplace-transform-of-the-system)
-   - [1.3 Partial fraction decomposition](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#13-partial-fraction-decomposition)
-
+   - [1.2 Laplace transform of the system.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#12-laplace-transform-of-the-system)
+   - [1.3 Partial fraction decomposition.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#13-partial-fraction-decomposition)
+   - [1.4 Solution of Bateman Equations.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#14-solution-of-the-bateman-equations)
 
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
