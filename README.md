@@ -145,7 +145,7 @@ where it has been used that:
 $$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{30}$$
 ### 3.2 Including Diophantine Equations.
 Using the procedure that is detailed in the submitted paper, the Cetnar's solution can be rewritten as:
-$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\lambda_i\prod_{j=1,j\neq i}^{n}{\frac{\lambda_j^{\mu_j+1}}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\exp(-\lambda_it)}\sum_{l=0}^{\mu_i}{\frac{\left(\lambda_it\right)^l}{l!}\psi_{i,}\mu_i-l}$$
+$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\lambda_i\prod_{j=1,j\neq i}^{n}{\frac{\lambda_j^{\mu_j+1}}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\exp(-\lambda_it)}\sum_{l=0}^{\mu_i}{\frac{\left(\lambda_it\right)^l}{l!}\psi_{i,}\mu_i-l} \tag{30}$$
 
 
 
