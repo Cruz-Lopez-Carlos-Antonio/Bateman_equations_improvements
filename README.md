@@ -140,6 +140,9 @@ As it can be observed in the last expression, the nested sums have been removed 
 The main contribution of the submitted article consists of simplifying the Cetnar's solution, removing the nested sums as well as the Kronecker's delta. Using the findings that were described in the last section, it is possible to reduce the following product that appears inside Eq. (27) as follows:
 $$\prod_{k=1,k\neq i}^{n}\left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}=\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}\prod_{l=1,l\neq i}^{n}\lambda_i^{h_l}$$ 
 $$\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}\lambda_i^{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_l} \tag{28}$$
+$$=\lambda_i^j\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}, \tag{29}$$
+where it has been used that:
+$$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{30}$$
 
 
 
