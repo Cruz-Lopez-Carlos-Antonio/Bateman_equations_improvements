@@ -173,5 +173,5 @@ $$V=\underbrace{\set{0,\ 1,\ 2,\ ...,n}\times \set{0,\ 1,\ 2,\ ...,n}\times\cdot
 
 where it follows that:
 $$V_{\Sigma=1}\subset V. \tag{39}$$
-In other words, it is possible to build $$V_{\Sigma=1}$$ from $V$, i.e.:
+In other words, it is possible to build $V_{\Sigma=1}$ from $V$, i.e.:
 $$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(x)=m}\ $$
