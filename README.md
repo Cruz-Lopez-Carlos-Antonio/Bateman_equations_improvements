@@ -24,6 +24,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
    - [1.4 Solution of Bateman Equations.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#14-solution-of-the-bateman-equations)
 2. [Cetnar's solution.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#1-mathematical-description-of-the-problem)
    - [2.1 Solution based on increments.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#21-solution-based-on-increments)
+   - [2.2 Issues related to nested sums.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#22-the-issues-of-the-nested-sums)
 
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
@@ -103,7 +104,7 @@ $$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=\begin{cases}
   1  &  \text{ if $j=p$ } \\
   0  &  \text{ if $j\neq p$}
 \end{cases} \tag{23}$$
-### 2.2 The issues of the nested sums.
+### 2.2 Issues related to nested sums.
 Even when the solution (as well as the procedure that was followed to obtain it) is very ingenious, the way in which it is expressed is very disadvantageous. The main issue is related to the nested sum in the term $\psi_{i,j}$ in Eq. (22), which in turns involves the Kronecker's delta given in Eq. (23). 
 This implies, in computational terms, that several terms of the total sum in $\psi_{i,j}$ will be multiplied by zero, and therefore they will not be taken into account. The origin of this nested sum can be explained in terms of the following relationship:
 $$\sum_{h_1=0}^{j}\sum_{h_2=0}^{j}\cdots\sum_{h_n=0}^{j}{f(h_1,h_2,\ldots,h_n)}\delta_{h_1+h_2+\ldots+h_n,j}$$
