@@ -172,4 +172,5 @@ As it can be observed in Eq. (37), $V_{\Sigma=1}$ is a subset of $\mathbb{R}^n$,
 $$V=\underbrace{\set{0,\ 1,\ 2,\ ...,n}\times \set{0,\ 1,\ 2,\ ...,n}\times\cdots\times \set{0,\ 1,\ 2,\ ...,n}}_{n}, \tag{38}$$
 
 where it follows that:
-$$V_{\Sigma=1}\subset V \tag{39}$$
+$$V_{\Sigma=1}\subset V. \tag{39}$$
+In other words, it is possible to build $$V_{\Sigma=1}$$ from $V$, i.e.:
