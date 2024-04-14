@@ -166,3 +166,4 @@ $$P\left(\vec{x}\right)=P\left(\left(x_1,x_2,\ldots,x_n\right)\right)=\sum_{i=1}
 where $\vec{x}$ is a vector of dimension $n$, whose entries are $x_1,x_2,...,x_n$, which in turns are non-negative integers with:
 $$0\leq x_i\leq n, \tag{36}$$
 with $x_i \in \mathbb{z}$. The core of the idea is building all the possible vectors who fulfill these three condition, i.e., building the following set:
+$$V_{\Sigma=1}=\left\{\ \vec{x}=(x_1,x_2,\ldots,x_n)\right|\ \vec{x}\in R^n,0\le x_i\le n,\ x_i\in Z}\ \ $$
