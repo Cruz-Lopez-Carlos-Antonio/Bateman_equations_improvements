@@ -135,7 +135,7 @@ $$=f\left(0,0,4\right)+f\left(1,0,3\right)+f\left(0,2,2\right)+\ldots+f(4,\ 0,\ 
 As it can be observed in the last expression, the nested sums have been removed as well as the Kronecker's Delta. Even more, it is possible to observe that such sum only depends on the set of Diophantine Equations.
 
 ## 3. Improvements on the Cetnar's solution. 
-### 3.2 Reduction of the product inside $\psi_{i,j}
+### 3.2 Reduction of the product inside $\psi_{i,j}$
 The main contribution of the submitted article consists of simplifying the Cetnar's solution. Using the findings that were described in the last section, it i
 
 
