@@ -137,7 +137,8 @@ As it can be observed in the last expression, the nested sums have been removed 
 
 ## 3. Improvements on the Cetnar's solution. 
 ### 3.2 Reduction of the product inside $\psi_{i,j}$
-The main contribution of the submitted article consists of simplifying the Cetnar's solution. Using the findings that were described in the last section, it i
+The main contribution of the submitted article consists of simplifying the Cetnar's solution, removing the nested sums as well as the Kronecker's delta. Using the findings that were described in the last section, it is possible to reduce the following product:
+$$\prod_{k=1,k\neq i}^{n}\left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}=\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}\prod_{l=1,l\neq i}^{n}\lambda_i^{h_l}$$
 
 
 
