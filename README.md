@@ -174,9 +174,9 @@ $$V=\underbrace{\set{0,\ 1,\ 2,\ ...,n}\times \set{0,\ 1,\ 2,\ ...,n}\times\cdot
 where it follows that:
 $$V_{\Sigma=1}\subset V. \tag{39}$$
 In other words, it is possible to build $V_{\Sigma=1}$ from $V$, i.e.:
-$$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(\vec{x})=m}.\ $$
+$$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(\vec{x})=m}.\tag{40} $$
 Therefore, in a first stage it is necessary to build $V$, which can be done in a straighforward way using the itertools Python library. For example, if we want to build the following set:
-$$V_2=\set{0, 1}\times \set{0,1}=\set{(0, 0),\ (0,\ 1),\ (1,\ 0),\ (1,\ 1},$$
+$$V_2=\set{0, 1}\times \set{0,1}=\set{(0, 0),\ (0,\ 1),\ (1,\ 0),\ (1,\ 1)}, \tag{41}$$
 which contains four ordered pairs, it is only necessary to carry out the product of the set $\set{0, 1}$ with repetition two, as it is shown in the following Python 3 code:
 
 ```Python
