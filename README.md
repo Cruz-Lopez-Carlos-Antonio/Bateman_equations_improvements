@@ -3,7 +3,7 @@ The present repository contains a set of Python algorithms that solve and improv
 
 The programs are licensed under a Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0/
 
-Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Paredes (gepe@xanum.uam.mx)
+Authors: Carlos-Antonio Cruz-López (cacl.nucl@gmail.com), Gilberto Espinosa-Paredes (gepe@xanum.uam.mx), Juan
 
 Mathematical and algorithmical generalities of the codes are described in the following lines with the purpose to provide some insight of the developed work. Nevertheless, a more detailed and precise discussion is provided in the submitted article.
 
@@ -209,5 +209,5 @@ def cartesian_product(n,L):
 ```
 where the function cartesian product admits an input list L, where the cartesian product $\set{0, 1, 2,...,n}\times \cdots \times \set{0, 1, 2,...,n}$ is storaged. 
 ### 4.3 Discrimination ordered pairs.
-It is necessary to identify two key aspects related to the cartesian product, and with the Diophantine Equations described in Section 4.1. First, the number of products is related to the extension of the vector $\vec{x}$, which translated to our problem is equal to the amount of numbers that are summ:
+It is necessary to identify two key aspects related to the cartesian product, and with the Diophantine Equations described in Section 4.1. First, the number of products is related to the extension of the vector $\vec{x}$, which translated to our problem, is equal to the $n$ number of sum given in 
 
