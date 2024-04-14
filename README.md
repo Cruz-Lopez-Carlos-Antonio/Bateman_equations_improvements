@@ -174,4 +174,16 @@ $$V=\underbrace{\set{0,\ 1,\ 2,\ ...,n}\times \set{0,\ 1,\ 2,\ ...,n}\times\cdot
 where it follows that:
 $$V_{\Sigma=1}\subset V. \tag{39}$$
 In other words, it is possible to build $V_{\Sigma=1}$ from $V$, i.e.:
-$$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(\vec{x})=m}\ $$
+$$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(\vec{x})=m}.\ $$
+Therefore, in a first stage it is necessary to build $V$, which can be done in a straighforward way using the itertools Python library. For example, if we want to build the following set:
+$$V_2=\set{0, 1}\times \set{0,1}=\set{(0, \0),\ (0,\ 1),\ (1,\ 0),\ (1,\ 1}$$
+
+```Python
+import itertools
+# Cartesian product example
+
+List=[0,1]
+z=itertools.product(List,repeat=2)
+for u in z:
+    print(u)
+```
