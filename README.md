@@ -198,9 +198,8 @@ which produces the following output:
 The last procedure can be generalized as follows:
 ```Python
 import itertools
-import numpy as np
 
-def partitions_restricted(n,L):
+def cartesian_product(n,L):
     List = [ ]                                               
     for k in range(n+1):                                                          
         List.append(k)                                                           
@@ -208,5 +207,6 @@ def partitions_restricted(n,L):
     for k in itertools.product(List,repeat=n):                      
         L.append(k)
 ```
+where the function cartesian product admits an input list L, where the cartesian product $\set{0, 1, 2,...,n}\times \cdots \times \set{0, 1, 2,...,n}$ is storaged. 
 ### 4.3 Discrimination ordered pairs.
 
