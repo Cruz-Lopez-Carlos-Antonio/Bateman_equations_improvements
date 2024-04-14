@@ -169,5 +169,4 @@ with $x_i \in \mathbb{Z}$. The core of the idea is building all the possible vec
 $$V_{\Sigma=1}=\set{\ \vec{x}=(x_1,x_2,\ldots,x_n)|\ \vec{x}\in \mathbb{R}^n ,0\le x_i\le n,\ x_i\in \mathbb{Z}^+}.\ \ \tag{37}$$
 ### 4.2 Cartesian product.
 As it can be observed in Eq. (37), $V_{\Sigma=1}$ is a subset of $\mathbb{R}^n$, and it contains vectors whose entries are non-negative integers lower than $n$. Therefore, it is possible to build another set, $V$ as follows:
-$$V=\underbrace{\left\set(0,\ 1,\ 2,\ \ldots,n\right)\times\left \set(0,\ 1,\ 2,\ldots,\ n\right)\times\cdots\times\left(0,\ 1,\ 2,\ldots,\ n\right)}_{n}$$
-
+$$V=\underbrace{{0,\ 1,\ 2,\ ...,n}\times{0,\ 1,\ 2,\ ...,n}\times\cdots\times{0,\ 1,\ 2,\ ...,n}}_{n}$$
