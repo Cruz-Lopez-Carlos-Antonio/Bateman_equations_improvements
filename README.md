@@ -164,4 +164,4 @@ $$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{34}.$$
 As it wil be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible an standard algorithm even if this one is not the most efficient. Eq. (34) can be set in vectorial terms, defining the following function:
 $$P\left(\vec{x}\right)=P\left(\left(x_1,x_2,\ldots,x_n\right)\right)=\sum_{i=1}^{n}x_i=m, \tag{35}$$
 where $\vec{x}$ is a vector of dimension $n$, whose entries are $x_1,x_2,...,x_n$, which in turns are non-negative integers with:
-$$0\leqx_i\leq$$
+$$0\leq x_i\leq$$
