@@ -159,5 +159,7 @@ $$\chi_{i,j}=\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}{\ \prod_{k=1,k\n
 This last equation represents an improvement because several redundant operations have been reduced and simplified.
 ## 4. Algorithmic implementation. 
 ### 4.1 Diophantine Equations.
-
+The first step of the algorithmic implementation consists of computing the Diophantine Equations, i.e., building the set of solutions of the following equation:
+$$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j.$$
+As it wil be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible an standard algorithm even if this one is not the most efficient. 
 
