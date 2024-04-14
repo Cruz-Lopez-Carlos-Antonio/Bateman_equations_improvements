@@ -209,4 +209,5 @@ def cartesian_product(n,L):
 ```
 where the function cartesian product admits an input list L, where the cartesian product $\set{0, 1, 2,...,n}\times \cdots \times \set{0, 1, 2,...,n}$ is storaged. 
 ### 4.3 Discrimination ordered pairs.
+It is necessary to identify two key aspects related to the cartesian product, and with the Diophantine Equations described in Section 4.1. First, the number of products is related to the extension of the vector $\vec{x}$, which translated to our problem is equal to the amount of numbers that are summ:
 
