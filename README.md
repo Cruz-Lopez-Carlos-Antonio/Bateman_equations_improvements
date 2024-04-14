@@ -91,9 +91,9 @@ $$\times\left(\prod_{l=0,l\neq m}^{\mu_i}\frac{\lambda_i+l\Delta_i}{\left(l-m\ri
 where the function $\chi_n(t,\Delta_i,\Delta_j)$ represents an approximation whose accuracy depends on the way in which the increments $\Delta_i,\Delta_j$ are chosen, being $n$ the number of different nuclides (or different decay constants) and where $\mu_i$ is the number of times that the isotope of the type $i$ is repeated in the linear chain. Then, in a very ingenious procedure, Cetnar found the exact analytical solution considering the following limit:
 $$\lim_{\Delta_i,\Delta_j\rightarrow0}{\chi_n(t,\Delta_i,\Delta_j})=X_n. \tag{19}$$
 After a very difficult procedure, the following equation is obtained:
-$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}{\lambda_i\alpha_i\exp(-\lambda_it)}\cdot\sum_{m=0}^{\mu_i}{\frac{\left(\lambda_it\right)^m}{m!}\cdot\psi_{i,\mu_i-m}}, \tag{20}$$
+$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}{\lambda_i\alpha_i\exp(-\lambda_it)}\cdot\sum_{l=0}^{\mu_i}{\frac{\left(\lambda_it\right)^l}{l!}\cdot\psi_{i,\mu_i-l}}, \tag{20}$$
 where:
-$$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\right)^{m_j}, \tag{21}$$
+$$\alpha_i=\prod_{j=1,j\neq i}^{n}\left(\frac{\lambda_j}{\lambda_j-\lambda_i}\right)^{\mu_j+1}, \tag{21}$$
 and:
 
 $$\psi_{i,j}=\sum_{h_1=0}^{j} \sum_{h_2=0}^{j}\cdots\sum_{h_{i-1}=0}^{j}\sum_{h_{i+1}=0}^{j} \cdots\sum_{h_n=0}^{j} \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}{\mu_k} \left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}\delta_{j,p} \tag{22} $$
@@ -147,8 +147,8 @@ $$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{30}$$
 Using the procedure that is detailed in the submitted paper, the Cetnar's solution can be rewritten as:
 $$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\lambda_i\prod_{j=1,j\neq i}^{n}{\frac{\lambda_j^{\mu_j+1}}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\exp(-\lambda_it)}\sum_{l=0}^{\mu_i}{\frac{\left(\lambda_it\right)^l}{l!}\psi_{i,}\mu_i-l}, \tag{30}$$
 where:
-$$\psi_{i,j}=\lambda_i^j\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}{\ \prod_{k=1,k\neq i}^{n}\binom{h_k+\mu_k}{\mu_k} \frac{1}{\left(\lambda_i-\lambda_k\right)^{h_k}}} \tag{31}$$
-
+$$\psi_{i,j}=\lambda_i^j\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}{\ \prod_{k=1,k\neq i}^{n}\binom{h_k+\mu_k}{\mu_k} \frac{1}{\left(\lambda_i-\lambda_k\right)^{h_k}}}. \tag{31}$$
+As it can be observed, Eq. (31) is identical to Eq. (20), 
 
 
 
