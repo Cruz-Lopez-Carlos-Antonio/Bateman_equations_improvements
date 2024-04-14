@@ -23,7 +23,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
    - [1.3 Partial fraction decomposition.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#13-partial-fraction-decomposition)
    - [1.4 Solution of Bateman Equations.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#14-solution-of-the-bateman-equations)
 2. [Cetnar's solution.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#1-mathematical-description-of-the-problem)
-   -[2.1 Solution based on increments.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#21-solution-based-on-increments)
+   - [2.1 Solution based on increments.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#21-solution-based-on-increments)
 
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
