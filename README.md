@@ -161,9 +161,9 @@ This last equation represents an improvement because several redundant operation
 ### 4.1 Diophantine Equations.
 The first step of the algorithmic implementation consists of computing the Diophantine Equations, i.e., building the set of solutions of the following equation:
 $$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{34}.$$
-As it wil be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible an standard or direct algorithm even if this one is not the most efficient. Eq. (34) can be set in vectorial terms, defining the following function:
+As it wil be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible to use an standard or direct algorithm even if this one is not the most efficient. Eq. (34) can be set in vectorial terms, defining the following function:
 $$P\left(\vec{x}\right)=P\left(\left(x_1,x_2,\ldots,x_n\right)\right)=\sum_{i=1}^{n}x_i=m, \tag{35}$$
 where $\vec{x}$ is a vector of dimension $n$, whose entries are $x_1,x_2,...,x_n$, which in turns are non-negative integers with:
 $$0\leq x_i\leq n, \tag{36}$$
 with $x_i \in \mathbb{Z}$. The core of the idea is building all the possible vectors who fulfill these three condition, i.e., building the following set:
-$$V_{\Sigma=1}=\set{\ \vec{x}=(x_1,x_2,\ldots,x_n)|\ \vec{x}\in ,0\le x_i\le n,\ x_i\in \mathbb{R}\mathbb{Z}}\ \ $$
+$$V_{\Sigma=1}=\set{\ \vec{x}=(x_1,x_2,\ldots,x_n)|\ \vec{x}\in \mathbb{R}^n ,0\le x_i\le n,\ x_i\in \mathbb{Z}}\ \ $$
