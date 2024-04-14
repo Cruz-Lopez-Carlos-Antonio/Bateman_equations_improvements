@@ -26,7 +26,8 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
    - [2.1 Solution based on increments.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#21-solution-based-on-increments)
    - [2.2 Issues related to nested sums.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#22-the-issues-of-the-nested-sums)
    - [2.3 Diophantine Equations](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#23-diophantie-equations)
-
+3. [Improvements on the Cetnar's solution using Cauchy products](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#3-improvements-on-the-cetnars-solution-using-cauchy-products)
+   
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
 Bateman equations describe the time evolution of a set of nuclides in succesive transformations due to decay and transmutation process. These transformations can be represented by the following elementary structure:
