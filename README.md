@@ -136,13 +136,16 @@ $$=f\left(0,0,4\right)+f\left(1,0,3\right)+f\left(0,2,2\right)+\ldots+f(4,\ 0,\ 
 As it can be observed in the last expression, the nested sums have been removed as well as the Kronecker's Delta. Even more, it is possible to observe that such sum only depends on the set of Diophantine Equations.
 
 ## 3. Improvements on the Cetnar's solution. 
-### 3.2 Reduction of the product inside $\psi_{i,j}$
+### 3.1 Reduction of the product inside $\psi_{i,j}$
 The main contribution of the submitted article consists of simplifying the Cetnar's solution, removing the nested sums as well as the Kronecker's delta. Using the findings that were described in the last section, it is possible to reduce the following product that appears inside Eq. (27) as follows:
 $$\prod_{k=1,k\neq i}^{n}\left(\frac{\lambda_i}{\lambda_i-\lambda_k}\right)^{h_k}=\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}\prod_{l=1,l\neq i}^{n}\lambda_i^{h_l}$$ 
 $$\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}\lambda_i^{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_l} \tag{28}$$
 $$=\lambda_i^j\prod_{k=1,k\neq i}^{n}\left(\frac{1}{\lambda_i-\lambda_k}\right)^{h_k}, \tag{29}$$
 where it has been used that:
 $$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{30}$$
+### 3.2 Including Diophantine Equations.
+Using the procedure that is detailed in the submitted paper, the Cetnar's solution can be rewritten as:
+$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\sum_{i=1}^{n}\lambda_i\prod_{j=1,j\neq i}^{n}{\frac{\lambda_j^{\mu_j+1}}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\exp\funcapply(-\lambda_it)}\sum_{l=0}^{\mu_i}{\frac{\left(\lambda_it\right)^l}{l!}\psi_{i,}\mu_i-l}$$
 
 
 
