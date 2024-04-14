@@ -160,6 +160,7 @@ This last equation represents an improvement because several redundant operation
 ## 4. Algorithmic implementation. 
 ### 4.1 Diophantine Equations.
 The first step of the algorithmic implementation consists of computing the Diophantine Equations, i.e., building the set of solutions of the following equation:
-$$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j.$$
-As it wil be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible an standard algorithm even if this one is not the most efficient. 
+$$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{34}.$$
+As it wil be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible an standard algorithm even if this one is not the most efficient. Eq. (34) can be set in vectorial terms, defining the following function:
+$$P\left(\vec{x}\right)=P\left(\left(x_1,x_2,\ldots,x_n\right)\right)=\sum_{i=1}^{n}x_i=m \tag{35}$$
 
