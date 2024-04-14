@@ -202,10 +202,10 @@ import itertools
 def cartesian_product(n,L):
     List = [ ]                                               
     for k in range(n+1):                                                          
-        List.append(k)                                                           
+        List.append(k)    #Creation of the set {0, 1, ..., n}                                                           
 
-    for k in itertools.product(List,repeat=n):                      
-        L.append(k)
+    for k in itertools.product(List,repeat=n):        #Cartesian product              
+        L.append(k)                                   
 ```
 where the function cartesian product admits an input list L, where the cartesian product $\set{0, 1, 2,...,n}\times \cdots \times \set{0, 1, 2,...,n}$ is storaged. 
 ### 4.3 Discrimination ordered pairs.
