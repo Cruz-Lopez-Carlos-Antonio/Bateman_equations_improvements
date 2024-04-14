@@ -166,7 +166,7 @@ $$P\left(\vec{x}\right)=P\left(\left(x_1,x_2,\ldots,x_n\right)\right)=\sum_{i=1}
 where $\vec{x}$ is a vector of dimension $n$, whose entries are $x_1,x_2,...,x_n$, which in turns are non-negative integers with:
 $$0\leq x_i\leq n, \tag{36}$$
 with $x_i \in \mathbb{Z}$. The core of the idea is building all the possible vectors who fulfill these three condition, i.e., building the following set:
-$$V_{\Sigma=1}=\set{\ \vec{x}=(x_1,x_2,\ldots,x_n)|\ \vec{x}\in \mathbb{R}^n ,0\le x_i\le n,\ x_i\in \mathbb{Z}^+, P(x)=m}.\ \ \tag{37}$$
+$$V_{\Sigma=1}=\set{\ \vec{x}=(x_1,x_2,\ldots,x_n)|\ \vec{x}\in \mathbb{R}^n ,0\le x_i\le n,\ x_i\in \mathbb{Z}^+, P(\vec{x})=m}.\ \ \tag{37}$$
 ### 4.2 Cartesian product.
 As it can be observed in Eq. (37), $V_{\Sigma=1}$ is a subset of $\mathbb{R}^n$, and it contains vectors whose entries are non-negative integers lower than $n$. Therefore, it is possible to build another set, $V$ as follows:
 $$V=\underbrace{\set{0,\ 1,\ 2,\ ...,n}\times \set{0,\ 1,\ 2,\ ...,n}\times\cdots\times \set{0,\ 1,\ 2,\ ...,n}}_{n}, \tag{38}$$
@@ -174,4 +174,4 @@ $$V=\underbrace{\set{0,\ 1,\ 2,\ ...,n}\times \set{0,\ 1,\ 2,\ ...,n}\times\cdot
 where it follows that:
 $$V_{\Sigma=1}\subset V. \tag{39}$$
 In other words, it is possible to build $V_{\Sigma=1}$ from $V$, i.e.:
-$$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(x)=m}\ $$
+$$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(\vec{x})=m}\ $$
