@@ -152,7 +152,8 @@ $$\psi_{i,j}=\lambda_i^j\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}{\ \pr
 As it can be observed, Eq. (31) is identical to Eq. (20), where the only difference is the definition of $\psi_{i,j}$, which is given in terms of the Diophantine Equations. This equivalence is fundamental with the purpose to develop an adequate algorithmic implementation.. 
 ### 3.3 Further simplification. 
 It is possible to remove the term $\lambda_i^j$ from $\psi_{i,j}$. Similarly, the sum whose index is $l$ can be arranged, factoring the term $\lambda_i^l$, and removing some restrictions (see the submited paper for more details). After this modifications it follows that:
-$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\ \prod_{k=1}^{n}\lambda_k^{\mu_k+1}\sum_{i=1}^{n}\prod_{j=1,j\neq i}^{n}\frac{\exp(-\lambda_it)}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\cdot\sum_{l=0}^{\mu_i}{\frac{t^l}{l!}\chi_{i,\mu_i-l}} \tag{32}$$
-
+$$X_n\left(t\right)=\frac{X_1\left(0\right)}{\lambda_n}\ \prod_{k=1}^{n}\lambda_k^{\mu_k+1}\sum_{i=1}^{n}\prod_{j=1,j\neq i}^{n}\frac{\exp(-\lambda_it)}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\cdot\sum_{l=0}^{\mu_i}{\frac{t^l}{l!}\chi_{i,\mu_i-l}}, \tag{32}$$
+where:
+$$\chi_{i,j}=\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n=j}{\ \prod_{k=1,k\neq i}^{n} \binom{h_k+\mu_k}\frac{1}{\left(\lambda_i-\lambda_j\right)^{h_k}}}$$
 
 
