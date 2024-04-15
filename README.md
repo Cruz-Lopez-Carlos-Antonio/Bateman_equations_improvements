@@ -179,7 +179,7 @@ $$V_{\Sigma=1}=\set{\vec{x}=(x_1,x_2,\ldots,x_n)\in V|P(\vec{x})=m}.\tag{40} $$
 Therefore, in a first stage it is necessary to build $V$, which can be done in a straighforward way using the itertools Python library. For example, if we want to build the following set:
 $$V_2=\set{0, 1}\times \set{0,\ 1}=\set{(0, 0),\ (0,\ 1),\ (1,\ 0),\ (1,\ 1)}, \tag{41}$$
 which contains four ordered pairs, it is only necessary to carry out the product of the set $\set{0, 1}$ with repetition two, as it is shown in the following Python 3 code:
-
+**Code 1. Example of a cartesian product**
 ```Python
 import itertools
 # Cartesian product example
@@ -190,6 +190,7 @@ for u in z:
     print(u)
 ```
 which produces the following output:
+**Output of Code 1**
 ```Python
 (0, 0)
 (0, 1)
@@ -197,6 +198,7 @@ which produces the following output:
 (1, 1)
 ```
 The last procedure can be generalized as follows:
+**Code 2. Generalized Cartesian product**
 ```Python
 import itertools
 
@@ -216,4 +218,5 @@ $$0\le x_i\le m,\ \ 1\le i\le n. \tag{42}$$
 This lead to the definition of a new set that representes a refinement of the set $V$, which is given by:
 $$V_{\leq m}=\set{\vec{x}=(x_1,x_2,\ldots,x_n) |0\le x_i\le m,\ P(\vec{x})=m}. \tag{43}$$
 For decay and transmutation networks is common to consider that $m\leq n$, and in such case the following relationship is true:
-$$V_{\Sigma=1}\subset V_{\le m}\subset V \tag{44}$$
+$$V_{\Sigma=1}\subset V_{\le m}\subset V. \tag{44}$$
+This represents a first discrimination of the original ordered pairs. Finally, it is possible to 
