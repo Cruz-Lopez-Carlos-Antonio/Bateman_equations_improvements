@@ -210,7 +210,8 @@ def cartesian_product(n,L):
 ```
 where the function cartesian product admits an input list L, where the cartesian product $\set{0, 1, 2,...,n}\times \cdots \times \set{0, 1, 2,...,n}$ is storaged. 
 ### 4.3 Discrimination ordered pairs.
-It is necessary to identify two key aspects related to the cartesian product, and with the Diophantine Equations described in Section 4.1. First, the number of products is related to the extension of the vector $\vec{x}$, which translated to our problem, is equal to the $n$ number of sum given in Eq. (34). Now we are interested in the sum of each of the vectors of the cartesian product, and particularly that such sum be equal to a value $m$. 
+It is necessary to identify two key aspects related to the cartesian product, and with the Diophantine Equations described in Section 4.1. First, the number of products is related to the extension of the vector $\vec{x}$, which translated to our problem, is equal to the $n$ number of sum given in Eq. (34), which in turn is related to the number of different isotopes in a linear chain. Now we are interested in the sum of each of the vectors of the cartesian product, and particularly that such sum be equal to a value $m$. 
 Therefore, it is possible to add a restriction to the entries of the vector as:
-$$0\le x_i\le m,\ \ 1\le i\le n \tag{42}$$
-
+$$0\le x_i\le m,\ \ 1\le i\le n. \tag{42}$$
+This lead to the definition of a new set that representes a refinement of the set $V$, which is given by:
+$$V_{\le m}=\left\{\vec{x}=\left(x_1,x_2,\ldots,x_n\right)\middle|0\le x_i\le m,\ P\left(\vec{x}\right)=m\right\} \tag{43}$$
