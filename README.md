@@ -214,4 +214,4 @@ It is necessary to identify two key aspects related to the cartesian product, an
 Therefore, it is possible to add a restriction to the entries of the vector as:
 $$0\le x_i\le m,\ \ 1\le i\le n. \tag{42}$$
 This lead to the definition of a new set that representes a refinement of the set $V$, which is given by:
-$$V_{\le m}=\left\{\vec{x}=\left(x_1,x_2,\ldots,x_n\right)\middle|0\le x_i\le m,\ P\left(\vec{x}\right)=m\right\} \tag{43}$$
+$$V_{\le m}=\set{\vec{x}=(x_1,x_2,\ldots,x_n) |0\le x_i\le m,\ P(\vec{x})=m} \tag{43}$$
