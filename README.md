@@ -212,5 +212,5 @@ where the function cartesian product admits an input list L, where the cartesian
 ### 4.3 Discrimination ordered pairs.
 It is necessary to identify two key aspects related to the cartesian product, and with the Diophantine Equations described in Section 4.1. First, the number of products is related to the extension of the vector $\vec{x}$, which translated to our problem, is equal to the $n$ number of sum given in Eq. (34). Now we are interested in the sum of each of the vectors of the cartesian product, and particularly that such sum be equal to a value $m$. 
 Therefore, it is possible to add a restriction to the entries of the vector as:
-$$x_i\le m,\ \ 1\le i\le n \tag{42}$$
+$$0\le x_i\le m,\ \ 1\le i\le n \tag{42}$$
 
