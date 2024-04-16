@@ -486,7 +486,9 @@ The corresponding output consists of a list with 210 entries, each of them with 
 </p>
 </details>
 
-### 4.5 Implementation of Chi function, ###
+### 4.5 Implementation of Chi function, and shifted method ###
+Once the solution of Diophantine Equations is computed with the **Code 3**, it is possible to develop and algorithm to implement the $\chi_{i,j}$ function given in Eq. (33).
+For such task a shifted method will be used, where the limitations given for the index $i$, both in the product, $k=1, k\neq i$ and in the Diophantine Equations is removed. 
 
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
