@@ -477,6 +477,7 @@ The corresponding output consists of a list with 210 entries, each of them with 
 (3, 0, 1, 0, 0, 0, 0)
 (3, 1, 0, 0, 0, 0, 0)
 (4, 0, 0, 0, 0, 0, 0)
+
 ```
 </p>
 </details>
