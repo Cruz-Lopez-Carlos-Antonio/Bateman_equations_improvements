@@ -253,4 +253,11 @@ which is related to a linear chain of seven different isotopes, and where one of
 List_solutions = [ ]
 partitions_restricted(4,7,List_solutions)
 ```
-The output that is obtained consists of a list (List_solutions), where all the different solutions are storaged.
+The output that is obtained consists of a list (List_solutions), where all the different solutions are storaged. Adding two lines related to the print of the content:
+
+```Python
+for z in range(len(List_solutions)):
+    print(List_solutions[z])
+print(len(List_solutions))
+```
+
