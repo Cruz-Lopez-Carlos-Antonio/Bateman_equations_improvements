@@ -240,7 +240,17 @@ def partitions_restricted(m,n,L):
         a = np.array(k)                                                         #Transform the result of the cartesian product to an array (vector)
         l = np.sum(a)                                                           # Performs the sum of each vector
         if l==m:                                                                #Kronecker's Delta
+           L.append(k)
 ```
 The first loop runs over the interval $(0, m)$, and in the second loop the condition of the Kronecker's Delta of Eq. (23) is introduced. 
 
 ### 4.4 Example of an application of Code 3.
+Considering the following Diophantine Equation:
+$$x_1+x_2+\ldots+x_7=4, \tag{45}$$
+which is related to a linear chain of seven different isotopes, and where one of them appears, at least, four times. In order to compute the set of solutions of Eq. (45) the Code 3 is used as follows:
+**Aplication of Code 3**
+```Python
+List_solutions = [ ]
+partitions_restricted(4,7,List_solutions)
+```
+The output that is obtained consists of a list (List_solutions), where all the different solutions are storaged.
