@@ -493,7 +493,7 @@ Once the solution of Diophantine Equations is computed with the **Code 3**, it i
 For such task a shifted method will be used, where the limitations given for the index $i$, both in the product, $k=1, k\neq i$ and in the Diophantine Equations is removed. 
 #### 4.5.1 Shifted method.
 The shifted method consists of redefine an original set, ommiting the element in the position $i$. It can be expressed, in mathematical terms, as follows:
-$$\Omega_i=\left\{\lambda_j\middle|1\le j\le n,\ j\neq i\right\}, \tag{46}$$
+$$\Omega_i=\set{\lambda_j|1\le j\le n,\ j\neq i}, \tag{46}$$
 
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
