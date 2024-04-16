@@ -30,6 +30,8 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
    - [3.1 Reduction of $\psi_{i,j}$](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#31-reduction-of-the-product-involved-in-psi_ij)
    - [3.2 Including Diophantine Equations.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements?tab=readme-ov-file#32-including-diophantine-equations)
    - [3.3 Further Simplification.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/tree/main#33-further-simplification)
+4. [Algorithmic Implementation](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/tree/main#4-algorithmic-implementation))
+
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
 Bateman equations describe the time evolution of a set of nuclides in succesive transformations due to decay and transmutation process. These transformations can be represented by the following elementary structure:
@@ -483,3 +485,7 @@ The corresponding output consists of a list with 210 entries, each of them with 
 ```
 </p>
 </details>
+### Implementation of Chi function, 
+### 4.6 Advanced Cetnar's implementation.
+Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
+
