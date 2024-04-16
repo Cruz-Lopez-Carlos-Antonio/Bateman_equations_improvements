@@ -225,3 +225,22 @@ For decay and transmutation networks is common to consider that $m\leq n$, and i
 $$V_{\Sigma=1}\subset V_{\le m}\subset V. \tag{44}$$
 This represents a first discrimination of the original ordered pairs. Finally, once the set of vectors $\vec{x}$ with the last condition is built, it is necessary to add the final condition given by $P(x)=m$. These modifications can be included in the **Code 2** of the Cartesian product as follows:
 
+**Code 3. Diophantine Equations/ Partitions restricted**
+```Python
+import itertools
+import numpy as np
+
+def partitions_restricted(m,n,L):
+    List = [ ]                                               
+    for k in range(m+1):                                                          
+        List.append(k)                                                           #Creation of the set  
+
+    for k in itertools.product(List,repeat=n):                      #Creation of the set   of Eq. (41)
+        a = np.array(k)
+        l = np.sum(a)
+        if l==m:
+            L.append(k)
+```
+The first loop runs over the interval $(0, m)$, and in the second loop the condition of the Kronecker's Delta of Eq. (23) is introduced. 
+
+### 4.4 Example of an application of Code 3.
