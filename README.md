@@ -485,7 +485,9 @@ The corresponding output consists of a list with 210 entries, each of them with 
 ```
 </p>
 </details>
-### Implementation of Chi function, 
+
+### 4.5 Implementation of Chi function, ###
+
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
 
