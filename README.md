@@ -28,7 +28,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
    - [2.3 Diophantine Equations](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#23-diophantie-equations)
 3. [Improvements on the Cetnar's solution using Cauchy products](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#3-improvements-on-the-cetnars-solution-using-cauchy-products)
    - [3.1 Reduction of $\psi_{i,j}$](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#31-reduction-of-the-product-involved-in-psi_ij)
-   - [3.2 Including Diophantine Equations.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#31-reduction-of-the-product-involved-in-psi_ij)
+   - [3.2 Including Diophantine Equations.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements?tab=readme-ov-file#32-including-diophantine-equations)
 
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
