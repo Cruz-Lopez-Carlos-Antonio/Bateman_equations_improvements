@@ -263,10 +263,12 @@ print(len(List_solutions))
 The corresponding output consists of a list with 210 entries, each of them with a tuple of seven numbers, whose sum is equal to 4. The reader can consult such output in the following hidden section:
 **Output of the solution of Diophantine Equations**
 
-<details><summary>CLICK HERE to expand the list with all the solutions.</summary>
-<p>
-```Python
 
+<details><summary>CLICK HERE to expand the input of the application of the AnalyticNPKE-Insertion.py</summary>
+<p>
+
+
+```Python
 (0, 0, 0, 0, 0, 0, 4)
 (0, 0, 0, 0, 0, 1, 3)
 (0, 0, 0, 0, 0, 2, 2)
@@ -477,17 +479,6 @@ The corresponding output consists of a list with 210 entries, each of them with 
 (3, 0, 1, 0, 0, 0, 0)
 (3, 1, 0, 0, 0, 0, 0)
 (4, 0, 0, 0, 0, 0, 0)
-
-```
-</p>
-</details>
-
-
-<details><summary>CLICK HERE to expand the input of the application of the AnalyticNPKE-Insertion.py</summary>
-<p>
-
-
-```Python
 
 #***********************Input Parameters ********************************
 # L = list with lambda constants
