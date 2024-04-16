@@ -480,29 +480,6 @@ The corresponding output consists of a list with 210 entries, each of them with 
 (3, 1, 0, 0, 0, 0, 0)
 (4, 0, 0, 0, 0, 0, 0)
 
-#***********************Input Parameters ********************************
-# L = list with lambda constants
-# Betas = list with fractions of the precursors
-# Lambda_m is the prompt neutron generation time
-# Beta_total is computed by default
-# Reactivity can be expressed in dollars or numerically
-
-L=[0.0127, 0.0317, 0.115, 0.311,1.40, 3.87]
-Betas = [0.000285,0.0015975,0.00141,0.0030525,0.00096,0.000195]
-Lambda_m=0.0005
-Beta_total = sum(Betas) #This line does not require modifications
-rho = -Beta_total       #Reactivity expressed in dollars
-time = 10
-
-#********************* Initial conditions ******************************
-# n_0= neutron density at t=0
-# C_init = list with the initial conditions for the precursors
-n_0=1
-C_init = [ ]
-
-#************* Initial conditions given by n(0)b_k/(Lambda_m*lambda_k)
-for k in range(len(Betas)):
-    C_init.append((Betas[k]/(L[k]*Lambda_m))*n_0)
 ```
 </p>
 </details>
