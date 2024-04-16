@@ -227,19 +227,19 @@ This represents a first discrimination of the original ordered pairs. Finally, o
 
 **Code 3. Diophantine Equations/ Partitions restricted**
 ```Python
+#Restricted partitios.
 import itertools
 import numpy as np
 
 def partitions_restricted(m,n,L):
     List = [ ]                                               
-    for k in range(m+1):                                                          
-        List.append(k)                                                           #Creation of the set  
+    for k in range(m+1):                                                         #Limitation introduced Eq.(42) of the repository  
+        List.append(k)                                                           
 
-    for k in itertools.product(List,repeat=n):                      #Creation of the set   of Eq. (41)
-        a = np.array(k)
-        l = np.sum(a)
-        if l==m:
-            L.append(k)
+    for k in itertools.product(List,repeat=n):                                  #Cartesian product
+        a = np.array(k)                                                         #Transform the result of the cartesian product to an array (vector)
+        l = np.sum(a)                                                           # Performs the sum of each vector
+        if l==m:                                                                #Kronecker's Delta
 ```
 The first loop runs over the interval $(0, m)$, and in the second loop the condition of the Kronecker's Delta of Eq. (23) is introduced. 
 
