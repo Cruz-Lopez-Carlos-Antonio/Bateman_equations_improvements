@@ -32,7 +32,7 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
    - [3.3 Further Simplification.](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/tree/main#33-further-simplification)
 4. [Algorithmic Implementation](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/tree/main#4-algorithmic-implementation))
    - [4.1 Diophantine Equations](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements#41-diophantine-equations)
-
+   - [4.2 Cartesian product](https://github.com/Cruz-Lopez-Carlos-Antonio/Bateman_equations_improvements/blob/main/README.md#42-cartesian-product) 
 
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
