@@ -268,7 +268,7 @@ The corresponding output consists of a list with 210 entries, each of them with 
 **Output of the solution of Diophantine Equations**
 
 
-<details><summary>CLICK HERE to expand the input of the application of the AnalyticNPKE-Insertion.py</summary>
+<details><summary>CLICK HERE to expand the Output of the past example of Diophantine Equations </summary>
 <p>
 
 
