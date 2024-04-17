@@ -500,7 +500,7 @@ which can be summarized as follows:
 
 $$\Omega_j=\begin{cases}
   \lambda_j  &  \text{ if $j \< i$ } \\
-  \lambda_{j+1}  &  \text{ if $i\leqj$}
+  \lambda_{j+1}  &  \text{ if $i\lej$}
 \end{cases} \tag{48}$$
 
 ### 4.6 Advanced Cetnar's implementation.
