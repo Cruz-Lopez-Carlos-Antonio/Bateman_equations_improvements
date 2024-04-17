@@ -497,7 +497,8 @@ $$\Omega_i=\set{\lambda_j|1\le j\le n,\ j\neq i}, \tag{46}$$
 after that, it is necessary to use a different index notation to enumerate the elements on $\Omega_j$, which can be understood considering the equivalence between the two sets:
 $$\set{\lambda_1,\lambda_2,\ldots,\lambda_{i-1},\lambda_{i+1},\ldots,\lambda_n}\rightarrow \set{\lambda_1^\ast,\lambda_2^\ast,\ldots,\lambda_{i-1}^\ast,\lambda_i^\ast,\lambda_{i+1}^\ast,\ldots,\lambda_{n-1}^\ast}, \tag{47}$$
 which can be summarized as follows:
-$$p=\begin{cases}
+
+$$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=\begin{cases}
   1  &  \text{ if $j=p$ } \\
   0  &  \text{ if $j\neq p$}
 \end{cases} \tag{23}$$
