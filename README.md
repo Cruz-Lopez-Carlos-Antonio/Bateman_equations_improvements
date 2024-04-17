@@ -507,7 +507,13 @@ Using this redefinition, it follows that:
 
 $$\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n}{f(h_1,h_2,\ldots,h_{i-1},h_{i+1},\ldots,h_n)} $$
 
-$$=\sum_{h_1^\ast+h_2^\ast+\ldots+h_{n-1}^\ast} f(h_1^\ast,h_2^\ast,\ldots,h_{n-1}^\ast)$$
+$$=\sum_{h_1^\ast+h_2^\ast+\ldots+h_{n-1}^\ast} f(h_1^\ast,h_2^\ast,\ldots,h_{n-1}^\ast) \tag{49}$$
+
+and:
+$$\prod_{k=1,\ k\neq i\ }^{n}\frac{1}{\left(\lambda_i-\lambda_k\right)^{h_k}}$$
+
+$$=\prod_{k=1}^{n-1}\frac{1}{\left(\lambda_i-\lambda_k^\ast\right)^{h_k^\ast}} \tag{50}$$
+
 
 This shifted methodology can be implemented in a straighforward way in Python 3, using lists and the remove method. The following code contains the way in which this shifted method can be implemented:
 
