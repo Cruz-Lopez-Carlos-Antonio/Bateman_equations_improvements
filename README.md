@@ -501,7 +501,8 @@ which can be summarized as follows:
 $$\Omega_j=\begin{cases}
   \lambda_j  &  \text{ if $j \< i$ } \\
   \lambda_{j+1}  &  \text{ if $j\ge i$}
-\end{cases} \tag{48}$$
+\end{cases}. \tag{48}$$
+This shifted methodology can be implemented in a straighforward way in Python 3, using lists and the remove method. The following code contains
 
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
