@@ -532,7 +532,7 @@ $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 2}}\over{\fbox{$\mathrm{Compute
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 3}}\over{\fbox{$\mathrm{Main\ Sum}\ $}}}\\ $$
 
-$$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 4}}\over{\fbox{$\mathrm{Product\ of\ the\ factors\ }\ $}}}\\ $$
+$$\buildrel{\\mathrm{Step\ 4}}\over{\fbox{$\mathrm{Product\ of\ the\ factors\ }\ $}}\\ $$
 
 
 
