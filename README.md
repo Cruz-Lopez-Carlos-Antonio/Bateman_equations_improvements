@@ -530,9 +530,9 @@ def chi(i,j,Mu,Lambd,L):
     c = 0
     for u in L:
         Aux_L = Mu.copy()
-        Aux_L.remove(Mu[i])                 #using the shift method to remove  
+        Aux_L.remove(Mu[i])                 #using the shift method to remove mu_i
         Aux2 = Lambd.copy()
-        Aux2.remove(Lambd[i])              #using the shift method to remove  
+        Aux2.remove(Lambd[i])              #using the shift method to remove lambda_i
         a =1
         for k in range(len(Aux_L)):
             b_f = Decimal(math.comb(Aux_L[k]+u[k],Aux_L[k]))           
