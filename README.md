@@ -526,4 +526,4 @@ Lambda_3=List_lambdas.remove(List_lambdas[3])
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
 
-$$\buildrel{\fbox{$\mathrm{Determine}\ \mu_k$}}\over{\mathrm{Step}}\ 1$$
+$$\buildrel{\\mathrm{Step}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}\ 1$$
