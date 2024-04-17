@@ -527,7 +527,6 @@ Lambda_3=List_lambdas.remove(List_lambdas[3])
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
 
 $$begin{algorithmic}[1]
-
     \State $L_{1} \leftarrow Frequent 1-itemset $
     \State $k \leftarrow 2$
     \While{$L_{k-1} \neq \phi$}
@@ -537,6 +536,5 @@ $$begin{algorithmic}[1]
     \State $k \leftarrow k + 1$
     \EndWhile\\
     \Return L
-
 \end{algorithmic}
 \end{algorithm}$$
