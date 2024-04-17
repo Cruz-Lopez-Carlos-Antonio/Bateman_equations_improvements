@@ -530,6 +530,6 @@ $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determi
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 2}}\over{\fbox{$\mathrm{Compute}\ \prod_{k=1}^{n}\lambda_k^{\mu_k+1}$}}}\ $$
 
-$$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 3}}\over{\fbox{$\mathrm{Main\ Sum}\}}}}\ $$
+$$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 3}}\over{\fbox{$\mathrm{Main Sum}\ $}}}\\ $$
 
 
