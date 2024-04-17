@@ -538,40 +538,68 @@ $$\buildrel{\\mathrm{Step\ 4}}\over{\fbox{$\mathrm{Product\ of\ the\ factors\ }\
 
 The "Main" sum, in turns, involves a second sum where the $\chi_{i,j}$ function is involved. The corresponding code is given as follows:
 
-**Code 5**
+**Code 5. General Bateman Solution based on Partitions**
+**Click in the following hidden section**
+
+<details><summary>CLICK HERE to expand the Output of the past example of Diophantine Equations </summary>
+
 ```Python
 def GPS(X0,DC,t):
+    #Quotient X0/lambda_n
     term1 = Decimal(X0)/DC[-1]
+
+    #Transforms the list of Decay constants in a set
     Red_S = set(DC)
     Au1 = list(Red_S)
+    
+    
+    #Compute the factors mu_k, that represents the number
+    #of times that the isotope k is repeated and store it
+    # in the list Mu
     Mu = [ ]
     for u in Au1:
         Mu.append(DC.count(u)-1)
+
+    #Product of the Step 1
     term2 = 1
     for z in range(len(Au1)):
         term2 =term2*(Au1[z]**(Mu[z]+1))
+
+    #Main Sum
     s1 = 0
     for i in range(len(Au1)):
+        #Compute the exponential
         p1 = Decimal.exp(-Decimal(Au1[i])*Decimal(t))
+
+        #Shifted method described in Section 4.5.1
         Au2 = Au1.copy()
         Au2.remove(Au1[i])
         Mu_m = Mu.copy()
         Mu_m.remove(Mu[i])
+
+        #Product
         p2 = Decimal(1)
         for j in range(len(Au2)):
             p2 =p2*(Decimal(1)/((Decimal(Au2[j])-Decimal(Au1[i])))**Decimal((Mu_m[j]+1)))       
         s2 = 0
-         
+
+        #Second sum where the Chi function is valuated 
         for l in range(Mu[i]+1):
             L = [ ]
             z1 = Decimal((t**l))/Decimal(math.factorial(l))
+
+            #Calling the function of Diophantine Equations
             partitions_restricted(Mu[i]-l,len(Au2),L)
+
+            #Calling the Chi function
             z2 = chi(i,Mu[i]-l,Mu,Au1,L)
             s2 = Decimal(s2)+z1*z2
 
         s1 = Decimal(s1)+Decimal(p1)*p2*s2
 
+    #Final product
     solution = Decimal(term1)*Decimal(term2)*s1
     return solution
 ```
-
+</p>
+</details>
