@@ -503,7 +503,15 @@ $$\Omega_j=\begin{cases}
   \lambda_{j+1}  &  \text{ if $j\ge i$}
 \end{cases}. \tag{48}$$
 
-This shifted methodology can be implemented in a straighforward way in Python 3, using lists and the remove method. The following code contains
+This shifted methodology can be implemented in a straighforward way in Python 3, using lists and the remove method. The following code contains the way in which this shifted method can be implemented:
+
+**Code 4**
+```Python
+List_lambdas = [1,2,3,4,5,6,7,8] #Original list
+Lambda_3=List_lambdas.remove(List_lambdas[3]) 
+#List where the element in the position 3 (counting from zero, from the left to the right) is removed
+```
+
 
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
