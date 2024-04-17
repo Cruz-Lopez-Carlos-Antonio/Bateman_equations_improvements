@@ -498,10 +498,10 @@ after that, it is necessary to use a different index notation to enumerate the e
 $$\set{\lambda_1,\lambda_2,\ldots,\lambda_{i-1},\lambda_{i+1},\ldots,\lambda_n}\rightarrow \set{\lambda_1^\ast,\lambda_2^\ast,\ldots,\lambda_{i-1}^\ast,\lambda_i^\ast,\lambda_{i+1}^\ast,\ldots,\lambda_{n-1}^\ast}, \tag{47}$$
 which can be summarized as follows:
 
-$$p=\begin{cases}
-  1  &  \text{ if $j=p$ } \\
-  0  &  \text{ if $j\neq p$}
-\end{cases} \tag{23}$$
+$$\Omega_j=\begin{cases}
+  \lambda_j  &  \text{ if $j<i$ } \\
+  \lambda_{j+1}  &  \text{ if $j>i$}
+\end{cases} \tag{48}$$
 
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
