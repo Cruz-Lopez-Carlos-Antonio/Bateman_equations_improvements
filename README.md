@@ -499,8 +499,8 @@ $$\set{\lambda_1,\lambda_2,\ldots,\lambda_{i-1},\lambda_{i+1},\ldots,\lambda_n}\
 which can be summarized as follows:
 
 $$\Omega_j=\begin{cases}
-  \lambda_j  &  \text{ if $j \> i$ } \\
-  \lambda_{j+1}  &  \text{ if $j\geqi$}
+  \lambda_j  &  \text{ if $j \< i$ } \\
+  \lambda_{j+1}  &  \text{ if $i\leqj$}
 \end{cases} \tag{48}$$
 
 ### 4.6 Advanced Cetnar's implementation.
