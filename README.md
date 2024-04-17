@@ -534,6 +534,42 @@ $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 3}}\over{\fbox{$\mathrm{Main\ S
 
 $$\buildrel{\\mathrm{Step\ 4}}\over{\fbox{$\mathrm{Product\ of\ the\ factors\ }\ $}}\\ $$
 
+The "Main" sum, in turns, involves a second sum where the $\chi_{i,j}$ function is involved. The corresponding code is given as follows:
 
+**Code 5**
+```Python
+def GPS(X0,DC,t):
+    term1 = Decimal(X0)/DC[-1]
+    Red_S = set(DC)
+    Au1 = list(Red_S)
+    Mu = [ ]
+    for u in Au1:
+        Mu.append(DC.count(u)-1)
+    term2 = 1
+    for z in range(len(Au1)):
+        term2 =term2*(Au1[z]**(Mu[z]+1))
+    s1 = 0
+    for i in range(len(Au1)):
+        p1 = Decimal.exp(-Decimal(Au1[i])*Decimal(t))
+        Au2 = Au1.copy()
+        Au2.remove(Au1[i])
+        Mu_m = Mu.copy()
+        Mu_m.remove(Mu[i])
+        p2 = Decimal(1)
+        for j in range(len(Au2)):
+            p2 =p2*(Decimal(1)/((Decimal(Au2[j])-Decimal(Au1[i])))**Decimal((Mu_m[j]+1)))       
+        s2 = 0
+         
+        for l in range(Mu[i]+1):
+            L = [ ]
+            z1 = Decimal((t**l))/Decimal(math.factorial(l))
+            partitions_restricted(Mu[i]-l,len(Au2),L)
+            z2 = chi(i,Mu[i]-l,Mu,Au1,L)
+            s2 = Decimal(s2)+z1*z2
 
+        s1 = Decimal(s1)+Decimal(p1)*p2*s2
+
+    solution = Decimal(term1)*Decimal(term2)*s1
+    return solution
+```
 
