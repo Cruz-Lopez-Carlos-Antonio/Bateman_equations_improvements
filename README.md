@@ -503,6 +503,10 @@ $$\Omega_j=\begin{cases}
   \lambda_{j+1}  &  \text{ if $j\ge i$}
 \end{cases}. \tag{48}$$
 
+Using this redefinition, it follows that:
+
+$$\sum_{h_1+h_2+\ldots+h_{i-1}+h_{i+1}+\ldots+h_n}{f(h_1,h_2,\ldots,h_{i-1},h_{i+1},\ldots,h_n)} \tag{49}$$
+
 This shifted methodology can be implemented in a straighforward way in Python 3, using lists and the remove method. The following code contains the way in which this shifted method can be implemented:
 
 **Code 4**
