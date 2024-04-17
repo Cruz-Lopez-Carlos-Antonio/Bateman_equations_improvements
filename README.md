@@ -526,14 +526,17 @@ Lambda_3=List_lambdas.remove(List_lambdas[3])
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
 
-$$\begin{algorithmic}[1]
-\Procedure{Euclid}{$a,b$}\Comment{The g.c.d. of a and b}
-\State $r\gets a\bmod b$
-\While{$r\not=0$}\Comment{We have the answer if r is 0}
-\State $a\gets b$
-\State $b\gets r$
-\State $r\gets a\bmod b$
-\EndWhile\label{euclidendwhile}
-\State \textbf{return} $b$\Comment{The gcd is b}
-\EndProcedure
-\end{algorithmic}$$
+$$begin{algorithmic}[1]
+
+    \State $L_{1} \leftarrow Frequent 1-itemset $
+    \State $k \leftarrow 2$
+    \While{$L_{k-1} \neq \phi$}
+    \State $Temp \leftarrow candidateItemSet (L_{k-1})$
+    \State $C_{k} \leftarrow frequencyOfItemSet (Temp)$
+    \State $L_{k} \leftarrow compareItemSetWithMinimumSupport (C_{k}, minsup) $
+    \State $k \leftarrow k + 1$
+    \EndWhile\\
+    \Return L
+
+\end{algorithmic}
+\end{algorithm}$$
