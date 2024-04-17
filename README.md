@@ -523,6 +523,24 @@ List_lambdas = [1,2,3,4,5,6,7,8] #Original list
 Lambda_3=List_lambdas.remove(List_lambdas[3]) 
 #List where the element in the position 3 (counting from zero, from the left to the right) is removed
 ```
+#### 4.5.2 The Chi function. 
+The following code contains the implementation of Eq. (33), using the shifted method that was discussed in the past section:
+```Python
+def chi(i,j,Mu,Lambd,L):
+    c = 0
+    for u in L:
+        Aux_L = Mu.copy()
+        Aux_L.remove(Mu[i])                 #using the shift method to remove  
+        Aux2 = Lambd.copy()
+        Aux2.remove(Lambd[i])              #using the shift method to remove  
+        a =1
+        for k in range(len(Aux_L)):
+            b_f = Decimal(math.comb(Aux_L[k]+u[k],Aux_L[k]))           
+            dif = (Decimal(1)/(Decimal(Lambd[i])-Decimal(Aux2[k]))**Decimal(int(u[k])))
+            a = a*b_f*dif
+        c = c+a
+    return c
+```
 
 
 ### 4.6 Advanced Cetnar's implementation.
