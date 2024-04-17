@@ -526,7 +526,10 @@ Lambda_3=List_lambdas.remove(List_lambdas[3])
 ### 4.6 Advanced Cetnar's implementation.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
 
-$$\underset{\downarrow}{\buildrel{\\mathrm{Step 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
+$$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
 
-$$\underset{\downarrow}{\buildrel{\\mathrm{Step 2}}\over{\fbox{$\mathrm{Compute}\ \prod_{k=1}^{n}\lambda_k^{\mu_k+1}$}}}\ $$
+$$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 2}}\over{\fbox{$\mathrm{Compute}\ \prod_{k=1}^{n}\lambda_k^{\mu_k+1}$}}}\ $$
+
+$$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 3}}\over{\fbox{$\mathrm{Main\ Sum}\}}\ $$
+
 
