@@ -603,3 +603,8 @@ def GPS(X0,DC,t):
 ```
 </p>
 </details>
+
+### 4.7. Final implementation. 
+The code GSBP (General Solution Based on Partitions) includes all the past codes and represents an advanced Cetnar's solution implementation. 
+
+
