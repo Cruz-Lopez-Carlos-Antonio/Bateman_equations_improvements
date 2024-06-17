@@ -622,9 +622,8 @@ def GPS(X0,DC,t):
 </p>
 </details>
 
-### 4.7. Final implementation. 
-The code GSBP (General Solution Based on Partitions), that can be downloaded from this repository, includes all the past codes and represents an advanced Cetnar's solution implementation. 
-This code admits, as an input, a vector with the decay constants of the linear chain, as well as the initial condition. The code print, as OUTPUT, the concentration of the isotope in the position $n$.
+## Optimized Cetnar's solution.  
+
 
 
 
