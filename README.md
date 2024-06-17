@@ -115,7 +115,7 @@ $$p=\sum_{l=1,l\neq i}^{n}h_l,  \ \ \ \ \delta_i,p=\begin{cases}
   0  &  \text{ if $j\neq p$}
 \end{cases} \tag{23}$$
 ### 2.2 Issues related to nested sums.
-Even when the solution (as well as the procedure that was followed to obtain it) is very ingenious, the way in which it is expressed is very disadvantageous. The main issue is related to the nested sum in the term $\psi_{i,j}$ in Eq. (22), which in turns involves the Kronecker's delta given in Eq. (23). 
+Even when the solution (as well as the procedure that was followed to obtain it) is very ingenious, the way in which it is expressed is very disadvantageous. The main issue is related to the nested sum in the term $\psi_{i,j}$ in Eq. (22), which in turn involves the Kronecker's delta given in Eq. (23). 
 This implies, in computational terms, that several terms of the total sum in $\psi_{i,j}$ will be multiplied by zero, and therefore they will not be taken into account. The origin of this nested sum can be explained in terms of the following relationship:
 $$\sum_{h_1=0}^{j}\sum_{h_2=0}^{j}\cdots\sum_{h_n=0}^{j}{f(h_1,h_2,\ldots,h_n)}\delta_{h_1+h_2+\ldots+h_n,j}$$
 $$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}, \tag{24}$$
@@ -169,9 +169,9 @@ This last equation represents an improvement because several redundant operation
 ### 4.1 Diophantine Equations.
 The first step of the algorithmic implementation consists of computing the Diophantine Equations, i.e., building the set of solutions of the following equation:
 $$h_1+h_2+\ldots h_{i-1}+h_i+\ldots+h_n=j \tag{34}.$$
-As it will be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible to use a standard or direct algorithm even if this one is not the most efficient. Eq. (34) can be set in vectorial terms, defining the following function:
+As it will be explained later, this task can be precomputed and **it must carried out a single time**, therefore, it is possible to use a standard or direct algorithm even if this one is not the most efficient. An elementary way of solving Eq. (34) consists of setting the Diophantine equation in vectorial terms, defining the following function:
 $$P\left(\vec{x}\right)=P\left(\left(x_1,x_2,\ldots,x_n\right)\right)=\sum_{i=1}^{n}x_i=m, \tag{35}$$
-where $\vec{x}$ is a vector of dimension $n$, whose entries are $x_1,x_2,...,x_n$, which in turns are non-negative integers with:
+where $\vec{x}$ is a vector of dimension $n$, whose entries are $x_1,x_2,...,x_n$, which in turn are non-negative integers with:
 $$0\leq x_i\leq n. \tag{36}$$
 The core of the idea is building all the possible vectors who fulfill these three condition, i.e., building the following set:
 $$V_{\Sigma=1}=\set{\ \vec{x}=(x_1,x_2,\ldots,x_n)|\ \vec{x}\in \mathbb{R}^n ,0\le x_i\le n,\ x_i\in \mathbb{Z}^+, P(\vec{x})=m}.\ \ \tag{37}$$
