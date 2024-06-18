@@ -543,7 +543,7 @@ def chi(i,j,Mu,Lambd,L):
 ```
 
 
-### 4.6 Advanced Cetnar's implementation.
+## Optimized Cetnar's solution.
 Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
