@@ -544,8 +544,12 @@ def chi(i,j,Mu,Lambd,L):
 
 
 ## 5. Optimized Cetnar's solution.
-Using the theory described in the last sections, it is possible develop a **first optimization** of the Cetnar's solution, which will be denoted as Optimized Cetnar's solution (OCS). Essentially this first improvement consists of replacing the nested sums by the sum over the partitions over the solutions of the Diophantine Equations. 
+Using the theory described in the last sections, it is possible develop a **first optimization** of the Cetnar's solution, which will be denoted as **Optimized Cetnar's solution (OCS)**. Essentially this first improvement consists of replacing the nested sums by the sum over the partitions over the solutions of the Diophantine Equations. In other words, the nested sums are computed using the relationship given in Eq. (24)
 
+$$\sum_{h_1=0}^{j}\sum_{h_2=0}^{j}\cdots\sum_{h_n=0}^{j}{f(h_1,h_2,\ldots,h_n)}\delta_{h_1+h_2+\ldots+h_n,j}$$
+$$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}, \tag{51}$$
+
+The following scheme represents how the OCS includes each code that was discussed before:
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
 
