@@ -543,8 +543,9 @@ def chi(i,j,Mu,Lambd,L):
 ```
 
 
-## Optimized Cetnar's solution.
-Using the theory described in the last sections, it is possible to implement the improved version of the Cetnar's solution given in Eq. (32). It requires the following parts:
+## 5. Optimized Cetnar's solution.
+Using the theory described in the last sections, it is possible develop a **first optimization** of the Cetnar's solution, which will be denoted as Optimized Cetnar's solution (OCS). 
+
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
 
@@ -622,7 +623,6 @@ def GPS(X0,DC,t):
 </p>
 </details>
 
-## Optimized Cetnar's solution.  
 
 
 
