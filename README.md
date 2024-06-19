@@ -548,9 +548,9 @@ Using the theory described in the last sections, it is possible develop a **firs
 
 $$\sum_{h_1=0}^{j}\sum_{h_2=0}^{j}\cdots\sum_{h_n=0}^{j}{f(h_1,h_2,\ldots,h_n)}\delta_{h_1+h_2+\ldots+h_n,j}$$
 
-$$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}, \tag{51}$$
+$$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}. \tag{51}$$
 
-The following scheme represents how the OCS includes each code that was discussed before:
+Nevertheless, this optimized version does not use the pre-calculations methodology that was described before. Code "Optimized Cetnar's solution"
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
 
