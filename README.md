@@ -550,7 +550,7 @@ $$\sum_{h_1=0}^{j}\sum_{h_2=0}^{j}\cdots\sum_{h_n=0}^{j}{f(h_1,h_2,\ldots,h_n)}\
 
 $$=\sum_{h_1+h_2+\ldots+h_n=j}{f(h_1,h_2,\ldots,h_n)}. \tag{51}$$
 
-Nevertheless, this optimized version does not use the pre-calculations methodology that was described before. The related code can be found in the file "OptimizedCetnarSolution.py" that is provided in this repository.
+Nevertheless, this optimized version does not use the pre-calculations methodology that was described before, and therefore it is limited. On the other hand, the related code of this improved solution can be found in the file "OptimizedCetnarSolution.py" that is provided in this repository.
 The methodology of this first optimization can be summarized as follows:
 
 $$\underset{\downarrow}{\buildrel{\\mathrm{Step\ 1}}\over{\fbox{$\mathrm{Determine}\ \mu_k$}}}\ $$
