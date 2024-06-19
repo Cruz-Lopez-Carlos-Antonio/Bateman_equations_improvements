@@ -563,7 +563,7 @@ $$\buildrel{\\mathrm{Step\ 4}}\over{\fbox{$\mathrm{Product\ of\ the\ factors\ }\
 
 The "Main" sum, in turns, involves a second sum where the $\chi_{i,j}$ function is involved. The corresponding code is given as follows:
 
-$$\sum_{i=1}^{n}\prod_{j=1,j\neq i}^{n}\frac{\exp\funcapply(-\lambda_it)}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\cdot\ \sum_{l=0}^{\mu_i}\frac{t^l}{l!}\chi_{i,\mu_i-l}$$
+$$\sum_{i=1}^{n}\prod_{j=1,j\neq i}^{n}\frac{\exp(-\lambda_it)}{\left(\lambda_j-\lambda_i\right)^{\mu_j+1}}\cdot\ \sum_{l=0}^{\mu_i}\frac{t^l}{l!}\chi_{i,\mu_i-l}$$
 
 ### 5.1 Example of an application. 
 As a first application of the OCS code, the following linear chain, originally proposed by Dreher (2013) will be solved:
