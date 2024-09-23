@@ -39,7 +39,9 @@ The AnalyticNPKE codes were written in the Python programming language in its ve
 ## 1. Mathematical description of the problem.
 ### 1.1. Differential mass-balance equations. 
 Bateman equations describe the time evolution of a set of nuclides in succesive transformations due to decay and transmutation processes. These transformations can be represented by the following elementary structure:
-$$X_1\buildrel\lambda_1\over\rightarrow X_2\buildrel\lambda_2\over\rightarrow\ldots\buildrel\lambda_{n-1}\over\rightarrow X_n\buildrel\lambda_n\over\rightarrow \tag{1}$$
+
+$$ X_1\buildrel\lambda_1\over\rightarrow X_2\buildrel\lambda_2\over\rightarrow\ldots\buildrel\lambda_{n-1}\over\rightarrow X_n\buildrel\lambda_n\over\rightarrow \tag{1} $$
+
 where $X_1, X_2,...,X_n$ are the concentrations of the nuclides and $\lambda_1, \lambda_2, ..., \lambda_n$ are their decay constants. Structure given in Eq. (1) is known as a linear chain, and its time evolution can be modeled using the following set of coupled differential equations:
 
 $$\frac{dX_i(t)}{dt}=\lambda_{i-1}X_{i-1}\left(t\right)-\lambda_{i}X_{i}(t), \tag{2}$$
